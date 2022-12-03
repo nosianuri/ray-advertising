@@ -12,9 +12,9 @@ const Navbar = () => {
       <li><Link to="/privacy">PRIVACY</Link></li>
     </>
   return (
-    <div class="navbar bg-primary py-5 px-8">
-  <div class="navbar-start">
-    <div class="dropdown text-white">
+    <div className="navbar bg-primary z-50 fixed py-5 px-8">
+  <div className="navbar-start">
+    <div className="dropdown text-white">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </ul>
     </div>
     <a class="btn btn-ghost normal-case">
-        <img width="80" src={logo} alt="" />
+        <img width="100" src={logo} alt="" />
     </a>
   </div>
   <div class="navbar-center hidden lg:flex text-white">
@@ -32,7 +32,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div class="navbar-end ">
-    <a class="btn bg-white text-accent">Get started</a>
+    <a class="btn bg-secondary text-white">Get started</a>
   </div>
 </div>
   )

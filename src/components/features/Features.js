@@ -20,7 +20,10 @@ const Features = () => {
     <div id="features">
       <div className="features">
         <div className="title" data-aos="fade-up">
-          <BsFillBookmarkStarFill color="orangered" size={30} />
+        <div className="flex justify-center">
+        <BsFillBookmarkStarFill color="#1f93ff" size={30} />
+        </div>
+          
           <h2>EXPERTISE</h2>
           <p>
             Our team is made up of digital marketing, creative, and technology experts who offer infinite value to our clients. Our core specialties are affiliate marketing, lead generation, and pay-per-call verticals..
@@ -32,7 +35,7 @@ const Features = () => {
           <div class="hero-content flex-col lg:flex-row">
             <img src={phoneFeatures} alt="phone" class="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <div className="features-right" data-aos="fade-left">
+              <div className="features-right pl-32" data-aos="fade-left">
                 {FeatureList.map((feature) => (
                   <Feature
                     key={feature.id}

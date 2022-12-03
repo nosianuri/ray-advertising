@@ -15,8 +15,11 @@ const Faq = () => {
   return (
     <section id="faq">
       <div className="faq">
-        <div className="u-title" data-aos="fade-up">
-          <MdOutlineLibraryBooks color="orangered" size={30} />
+        <div className="text-center" data-aos="fade-up">
+        <div className="flex justify-center">
+        <MdOutlineLibraryBooks color="#1f93ff" size={30} />
+        </div>
+          
           <h2>FAQs</h2>
           <p className="u-text-small">
           Performance & Marketing

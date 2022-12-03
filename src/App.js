@@ -8,14 +8,14 @@ import Navbar from './pages/Shared/Navbar';
 import About from './pages/about/About';
 import Expertise from './pages/expertise/Expertise';
 import { Route, Routes } from 'react-router-dom';
-import Contact from './pages/contact/Contact';
+import Contact from './pages/contact/Contacts';
 import Privacy from './pages/privacy/Privacy';
 import Home from './pages/home/Home';
 import Footer from './pages/Shared/Footer';
 
 function App() {
   return (
-    <>
+    <div className=''>
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
       <Route path='/privacy' element={<Privacy />} />
     </Routes>
     <Footer />
-  </>
+  </div>
   );
 }
 

@@ -28,17 +28,19 @@ const Download = () => {
         {/* <p className="u-text-small">
           Our apps are available for download on all stores.
         </p> */}
-<div className="partner ">
-<div className="p1"><img className="download-icon" src={logo1} alt="" />
-  <img className="download-icon" src={logo2} alt="" />
-  <img className="download-icon" src={logo3} alt="" />
-  <img className="download-icon" src={logo4} alt="" /></div>
-  <div className="p2"><img className="download-icon" src={logo5} alt="" />
-  <img className="download-icon" src={logo6} alt="" />
-  <img className="download-icon" src={logo7} alt="" />
-  <img className="download-icon" src={logo8} alt="" /></div>
-  
-</div>
+        <div className="partner sm:mx-20 mx-5">
+          <div className="partner-icon text-center w-full">
+            <img className="download-icon" src={logo1} alt="" />
+            <img className="download-icon" src={logo2} alt="" />
+            <img className="download-icon" src={logo3} alt="" />
+            <img className="download-icon" src={logo4} alt="" />
+            <img className="download-icon" src={logo5} alt="" />
+            <img className="download-icon" src={logo6} alt="" />
+            <img className="download-icon" src={logo7} alt="" />
+            <img className="download-icon" src={logo8} alt="" />
+          </div>
+
+        </div>
         {/* <IconContext.Provider value={{ size: "15" }}>
           <div className="download-icons">
             <div className="download-icon">
