@@ -4,7 +4,7 @@
     align-items: center;
     height: 8rem;
     background: var(--dark-blue);
-    position: fixed;
+    /* position: fixed; */
   }
 
   .header-bg{
