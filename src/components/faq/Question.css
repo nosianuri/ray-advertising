@@ -6,7 +6,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   
   .question-title {

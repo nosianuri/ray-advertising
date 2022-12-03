@@ -16,12 +16,12 @@ const Header = () => {
   }, []);
   return (
     <section id="header">
-      <div className="container header">
+      <div className=" header">
         <div className="header-left" data-aos="fade-right">
           <h1>
             <span>THE SMART PATH</span>
             <span>FOR BRAND SUCCESS</span>
-            {/* <span>pay per call leads</span> */}
+            <span>pay per call leads</span>
           </h1>
           <p>
           Digital Market Media is the most trusted provider of inbound calls and leads for insurance, financial services, and other industries.

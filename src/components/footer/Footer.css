@@ -1,4 +1,4 @@
-section#footer {
+/* section#footer {
     background: var(--dark-blue);
     color: #fff;
   }
@@ -16,10 +16,7 @@ section#footer {
     font-size: 15px;
   }
   
-  /* .footer > * {
-    flex: 1;
-    justify-self: center;
-  } */
+ 
   
   .footer h4 {
     font-size: 1.6rem;
@@ -42,4 +39,4 @@ section#footer {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-  }
+  } */

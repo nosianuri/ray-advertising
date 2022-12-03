@@ -14,7 +14,7 @@ const Faq = () => {
   }, []);
   return (
     <section id="faq">
-      <div className="container faq">
+      <div className="faq">
         <div className="u-title" data-aos="fade-up">
           <MdOutlineLibraryBooks color="orangered" size={30} />
           <h2>FAQs</h2>

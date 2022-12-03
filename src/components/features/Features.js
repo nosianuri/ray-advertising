@@ -15,16 +15,39 @@ const Features = () => {
     });
   }, []);
   return (
-    <section id="features">
-      <div className="container features">
+
+
+    <div id="features">
+      <div className="features">
         <div className="title" data-aos="fade-up">
           <BsFillBookmarkStarFill color="orangered" size={30} />
           <h2>EXPERTISE</h2>
-          <p className="u-text-small">
-          Our team is made up of digital marketing, creative, and technology experts who offer infinite value to our clients. Our core specialties are affiliate marketing, lead generation, and pay-per-call verticals..
+          <p>
+            Our team is made up of digital marketing, creative, and technology experts who offer infinite value to our clients. Our core specialties are affiliate marketing, lead generation, and pay-per-call verticals..
           </p>
         </div>
-        <div className="features-content">
+
+
+        <div class="hero min-h-screen bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src={phoneFeatures} alt="phone" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div className="features-right" data-aos="fade-left">
+                {FeatureList.map((feature) => (
+                  <Feature
+                    key={feature.id}
+                    icon={feature.icon}
+                    heading={feature.heading}
+                    text={feature.text}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        {/* <div className="features-content">
           <div className="features-left" data-aos="fade-right">
             <img src={phoneFeatures} alt="phone" />
           </div>
@@ -38,9 +61,9 @@ const Features = () => {
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
-    </section>
+    </div>
   );
 };
 

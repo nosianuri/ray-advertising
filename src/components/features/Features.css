@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
   }
   
   .title h2 {
@@ -14,7 +14,7 @@
   
   .title p {
     width: 50%;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     /* min-width: 40rem; */
     margin: 0 auto;
     color: var(--dark-text);
@@ -23,10 +23,10 @@
   .features-content {
     display: flex;
     justify-content: center;
-    /* padding: 3rem 0; */
+    padding: 3rem 5rem;
   }
   .features h2{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
   }
   

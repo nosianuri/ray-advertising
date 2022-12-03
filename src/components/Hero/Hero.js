@@ -12,16 +12,16 @@ const Hero = () => {
                 <video src="https://digitalmediasolutions.com/themes/dms/assets/video/dms-banner-sm.mp4" autoPlay loop muted id='video'>
                     {/* <source  type='video/mp4' /> */}
                 </video>
-                <div className="overlay"></div>
-                <div className="hero-text">
+                {/* <div className="overlay"></div> */}
+               {/* <div className="top-header-text">
                     <h1>We Acquire Customers</h1>
                     <h2>By Leveraging Innovative Technologies In Online Marketing</h2>
                     <div className="floating-icon">
         <a href="#features">
           <BsMouse color="#fff" size={25} className="mouse" />
         </a>
-      </div>
-                </div>
+      </div> 
+                </div> */}
 
                 {/* <div class="container h-100">
                     <div class="d-flex h-100 text-center align-items-center">
