@@ -1,0 +1,21 @@
+.faq h2{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.faq p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .faq h2{
+        font-size: 2.5rem;
+    }
+    .faq p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .faq{
+        text-align: center;
+        padding: 0 30px;
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="50px" viewBox="0 0 57 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Fill 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.2337194%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#4564CF" offset="0%"></stop>
+            <stop stop-color="#5DBFEA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DMM_Homepage_mh_3a" transform="translate(-1212.000000, -3859.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="who-we-are" transform="translate(0.000000, 3378.000000)">
+                <g id="services-copy">
+                    <g id="Fill-9" transform="translate(1211.774194, 481.000000)">
+                        <path d="M22.7938003,11.1111115 L33.9476465,11.1111115 L33.9476465,0 L22.7938003,0 L22.7938003,11.1111115 Z M22.7938003,50 L33.9476465,50 L33.9476465,38.8888885 L22.7938003,38.8888885 L22.7938003,50 Z M45.1014926,50 L56.2553388,50 L56.2553388,38.8888885 L45.1014926,38.8888885 L45.1014926,50 Z M0.486108002,50 L11.6399542,50 L11.6399542,38.8888885 L0.486108002,38.8888885 L0.486108002,50 Z M8.85149262,33.3333327 L3.27456954,33.3333327 L3.27456954,22.2222231 L25.5822618,22.2222231 L25.5822618,16.6666673 L31.1591849,16.6666673 L31.1591849,22.2222231 L53.4668772,22.2222231 L53.4668772,33.3333327 L47.8899542,33.3333327 L47.8899542,27.7777769 L31.1591849,27.7777769 L31.1591849,33.3333327 L25.5822618,33.3333327 L25.5822618,27.7777769 L8.85149262,27.7777769 L8.85149262,33.3333327 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

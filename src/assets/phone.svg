@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="50px" viewBox="0 0 31 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.2337194%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#4564CF" offset="0%"></stop>
+            <stop stop-color="#5DBFEA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DMM_Homepage_mh_3a" transform="translate(-347.000000, -3859.000000)" fill="url(#linearGradient-1)">
+            <g id="who-we-are" transform="translate(0.000000, 3378.000000)">
+                <g id="services-copy">
+                    <path d="M352.166667,526 L372.833333,526 L372.833333,486 L352.166667,486 L352.166667,526 Z M347,531 L347,531 L347,481 L378,481 L378,531 L347,531 Z M360.025167,521 L365.191833,521 L365.191833,516 L360.025167,516 L360.025167,521 Z" id="phone"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
