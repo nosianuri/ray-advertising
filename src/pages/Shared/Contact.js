@@ -17,7 +17,7 @@ const Contact = () => {
     }} className='px-10 py-14 flex items-center justify-center'>
     <div className='bg-white w-[500px] p-8 rounded-2xl shadow-md' data-aos="fade-up">
     <div className='text-center pb-5 '>
-            <p className='text-4xl pb-3 font-bold text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary'>
+            <p className='text-4xl pb-3 text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary'>
             CONTACT US
             </p>
             <h1 className='text-xl'>We are here to help you grow your business</h1>
@@ -48,7 +48,7 @@ const Contact = () => {
                 <label htmlFor="message" className='absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm' >Your message</label>
             </div>
             <div className='flex items-center justify-center mt-10'>
-            <button class="btn btn-secondary lg:px-32 font-medium text-white border-2 border-blue py-4 group relative flex items-center overflow-hidden">
+            <button class="btn btn-secondary lg:px-32 font-large text-xl text-white border-2 border-blue  group relative flex items-center overflow-hidden">
       <span className='absolute left-0 w-full h-0 transition-all bg-blue opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease'></span>
       <span className='absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease'>
         <svg className="w-5 h-5" fill="none" stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>

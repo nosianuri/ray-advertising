@@ -10,8 +10,8 @@ const Abanner = () => {
   <div class="hero-overlay bg-opacity-60"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">
-      <h1 class="mb-5 lg:text-5xl md:text-3xl sm:text-2xl font-bold">About us</h1>
-      <p class="py-6 lg:text-3xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p>
+      <h1 class="mb-5 lg:text-6xl md:text-3xl sm:text-2xl font-bold">About us</h1>
+      <p class="py-6 lg:text-2xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p>
     </div>
   </div>
 </div>

@@ -37,8 +37,8 @@ const Testimonial = () => {
     <section className='my-28 px-12'>
         <div className='flex justify-between'>
             <div data-aos="fade-right">
-                <h4 className='text-3xl text-primary font-bold'>Data- Driven marketing Platform</h4>
-                <h2 className='text-4xl'>Here’s What You’ll Get</h2>
+                <h4 className='lg:text-4xl text-primary'>Data- Driven marketing Platform</h4>
+                <h2 className='lg:text-2xl sm:text-xl mt-5'>Here’s What You’ll Get</h2>
             </div>
             <div data-aos="fade-left">
                 <img src={quote} className= "w-24 lg:w-48 "alt="" />

@@ -14,8 +14,8 @@ const Hero = () => {
                 </video>
                 <div className="overlay"></div>
                 <div className="top-header-text">
-                    <h1 className=''>We Acquire Customers</h1>
-                    <h2>By Leveraging Innovative Technologies In Online Marketing</h2>
+                    <h1 className='lg:text-6xl font-bold'>We Acquire Customers</h1>
+                    <h2 className='mt-5'>By Leveraging Innovative Technologies In Online Marketing</h2>
                     <div className="floating-icon">
                         <a href="#services">
                             <BsMouse color="#fff" size={25} className="mouse" />
