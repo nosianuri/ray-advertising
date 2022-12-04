@@ -28,14 +28,14 @@ const Download = () => {
         
         <div className="partner sm:mx-20 mx-5">
           <div className="partner-icon text-center w-full">
-            <img className="download-icon" src={logo1} alt="" />
-            <img className="download-icon" src={logo2} alt="" />
-            <img className="download-icon" src={logo3} alt="" />
-            <img className="download-icon" src={logo4} alt="" />
-            <img className="download-icon" src={logo5} alt="" />
-            <img className="download-icon" src={logo6} alt="" />
-            <img className="download-icon" src={logo7} alt="" />
-            <img className="download-icon" src={logo8} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo1} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo2} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo3} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo4} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo5} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo6} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo7} alt="" />
+            <img className="download-icon transform transition-all hover:translate-x-4" src={logo8} alt="" />
           </div>
 
         </div>

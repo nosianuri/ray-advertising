@@ -27,7 +27,7 @@ const Navbar = () => {
         <img width="100" src={logo} alt="" />
     </a>
   </div>
-  <div class="navbar-end hidden lg:flex text-white">
+  <div class="navbar-center hidden lg:flex text-white">
     <ul class="menu menu-horizontal p-0">
     {menuItems}
     </ul>
