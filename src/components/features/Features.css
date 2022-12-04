@@ -18,7 +18,7 @@ padding-bottom: 20px;
   
   .title p {
     width: 50%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     /* min-width: 40rem; */
     margin: 0 auto;
   }
@@ -28,10 +28,7 @@ padding-bottom: 20px;
     justify-content: center;
     padding: 3rem 5rem;
   }
-  .features h2{
-    /* font-size: 3rem; */
-    /* font-weight: 800; */
-  }
+  
   
   .features-left {
     flex: 1;

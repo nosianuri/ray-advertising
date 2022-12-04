@@ -27,8 +27,8 @@ const Features = () => {
             Our team is made up of digital marketing, creative, and technology experts who offer infinite value to our clients. Our core specialties are affiliate marketing, lead generation, and pay-per-call verticals..
           </p>
         </div>
-
-        <div class="card card-side bg-base-100">
+        <div class="divider w-28 flex items-center justify-center mx-auto"></div>
+        {/* <div class="card card-side bg-base-100">
   <figure>
   <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg" />
   </figure>
@@ -44,12 +44,12 @@ const Features = () => {
                 ))}
               </div>
             </div>
-</div>
+</div> */}
 
 
-        {/* <div class="hero min-h-screen bg-base-200">
+        <div class="hero min-h-screen bg-white">
           <div class="hero-content flex-col lg:flex-row">
-            <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
+            <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg " data-aos="fade-right" />
             <div>
               <div className="features-right lg:pl-32" data-aos="fade-left">
                 {FeatureList.map((feature) => (
@@ -63,7 +63,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
 
         {/* <div className="features-content">
