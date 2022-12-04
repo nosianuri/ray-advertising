@@ -11,7 +11,7 @@ const Hero = () => {
                 <video src="https://digitalmediasolutions.com/themes/dms/assets/video/dms-banner-sm.mp4" autoPlay loop muted id='video'>
                     
                 </video>
-                {/* <div className="overlay"></div> */}
+                <div className="overlay"></div>
                 <div className="top-header-text">
                     <h1 className=''>We Acquire Customers</h1>
                     <h2>By Leveraging Innovative Technologies In Online Marketing</h2>

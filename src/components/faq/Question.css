@@ -18,7 +18,7 @@
   }
   
   .question-title h4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.4;
     text-transform: uppercase;
@@ -37,4 +37,10 @@
 
   .question-answer p{
     font-size: 1rem !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .question-title h4 {
+      font-size: 1rem;
+    }
   }
