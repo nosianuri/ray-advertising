@@ -40,9 +40,9 @@ const Testimonial = () => {
                 <h4 className='lg:text-4xl text-primary'>Data- Driven marketing Platform</h4>
                 <h2 className='lg:text-2xl sm:text-xl mt-5'>Here’s What You’ll Get</h2>
             </div>
-            <div data-aos="fade-left">
+            {/* <div data-aos="fade-left">
                 <img src={quote} className= "w-24 lg:w-48 "alt="" />
-            </div>
+            </div> */}
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5' data-aos="fade-up">
             {

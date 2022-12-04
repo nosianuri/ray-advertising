@@ -33,7 +33,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div class="navbar-end ">
-    <a href="tel:+14356251961" class="btn bg-secondary text-white"><i class="fa-solid fa-phone pr-2"></i> Call Us </a>
+    <a href="tel:+14356251961" class="btn bg-secondary text-white"><i class="fa-solid fa-phone pr-2"></i> Contact Us </a>
   </div>
 </div>
   )
