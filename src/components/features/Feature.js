@@ -12,7 +12,7 @@ const Feature = ({ icon, heading, text }) => {
       </div>
 
       <div className="feature-text">
-        <h3>{heading}</h3>
+        <h3 className="lg:text-3xl md:text-2xl sm:text-xl">{heading}</h3>
         <p>{text}</p>
       </div>
     </div>

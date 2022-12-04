@@ -31,11 +31,11 @@ const Features = () => {
         </div>
 
 
-        <div class="hero bg-base-200">
+        <div class="hero min-h-screen bg-base-200">
           <div class="hero-content flex-col lg:flex-row">
-            <img src={phoneFeatures} alt="phone" class="max-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
+            <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
             <div>
-              <div className="features-right pl-32" data-aos="fade-left">
+              <div className="features-right lg:pl-32" data-aos="fade-left">
                 {FeatureList.map((feature) => (
                   <Feature
                     key={feature.id}

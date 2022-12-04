@@ -17,13 +17,22 @@
   }
   
   .feature-text h3 {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     font-weight: 600;
     line-height: 1.4;
     text-transform: uppercase;
-    color: var(--light-blue);
   }
 
   .feature-text p{
 font-size: 15px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .feature-text p{
+      font-size: 12px;
+        }
+        .feature-icon {
+          margin-right: 0rem;
+        }
+        
   }

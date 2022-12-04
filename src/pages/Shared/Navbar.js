@@ -31,11 +31,11 @@ const Navbar = () => {
     {menuItems}
     </ul>
   </div>
-  <div class="navbar-end ">
-    <a class="btn bg-secondary text-white">Get started</a>
+  <div class="navbar-end  ">
+    <a class="btn bg-secondary hidden text-white">Get started</a>
   </div>
 </div>
   )
 }
 
-export default Navbar
+export default Navbar;

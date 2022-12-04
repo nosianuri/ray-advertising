@@ -10,24 +10,13 @@ const Abanner = () => {
   <div class="hero-overlay bg-opacity-60"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">
-      <h1 class="mb-5  text-5xl font-bold">About us</h1>
-      <p class="py-6 text-3xl">Everything you need to know about our values and achievements</p>
-      
+      <h1 class="mb-5 lg:text-5xl md:text-3xl sm:text-2xl font-bold">About us</h1>
+      <p class="py-6 lg:text-3xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p>
     </div>
   </div>
 </div>
-//     <div style={{
-//         background: `url(${about})` 
-//     }} class="hero min-h-screen bg-base-200 abanner">
-//   <div class="hero-content text-center">
-//     <div class="max-w-md text-white">
-//       <h1 class="text-5xl font-bold">About us</h1>
-//       <p class="py-6 text-3xl">Everything you need to know about our values and achievements</p>
-//       {/* <button class="btn btn-primary">Get Started</button> */}
-//     </div>
-//   </div>
-// </div>
+
   )
 }
 
-export default Abanner
+export default Abanner;
