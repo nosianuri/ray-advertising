@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../assets/Ray-Logo-white.png";
+import './Navbar.css';
 
 const Navbar = () => {
 
@@ -26,13 +27,13 @@ const Navbar = () => {
         <img width="100" src={logo} alt="" />
     </a>
   </div>
-  <div class="navbar-center hidden lg:flex text-white">
+  <div class="navbar-end hidden lg:flex text-white">
     <ul class="menu menu-horizontal p-0">
     {menuItems}
     </ul>
   </div>
   <div class="navbar-end  ">
-    <a class="btn bg-secondary hidden text-white">Get started</a>
+    <a class="btn bg-secondary  text-white">Get started</a>
   </div>
 </div>
   )

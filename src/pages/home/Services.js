@@ -40,10 +40,10 @@ const Services = () => {
         },
     ]
   return (
-    <div className='my-28 px-12 ' id="services">
+    <div className='mb-28 mt-10 px-16 ' id="services">
     <div className='text-center py-5 data-aos="fade-up"'>
-    <h3 className='text-primary text-xl font-bold uppercase'>Our Services</h3>
-        <h2 className='text-4xl py-5'>Services we provide</h2>
+    <h3 className='text-primary text-4xl font-bold uppercase'>Our Services</h3>
+        <h2 className='text-xl py-5'>Services we provide</h2>
     </div>
     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ' data-aos="fade-up">
 {

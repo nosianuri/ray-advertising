@@ -15,11 +15,9 @@ const Features = () => {
     });
   }, []);
   return (
-
-
     <div id="features">
       <div className="features mt-16">
-        <div className="title" data-aos="fade-up">
+        <div className="title">
         <div className="flex justify-center">
         <BsFillBookmarkStarFill color="#1f93ff" size={30} />
         </div>
@@ -30,8 +28,26 @@ const Features = () => {
           </p>
         </div>
 
+        <div class="card card-side bg-base-100">
+  <figure>
+  <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg" />
+  </figure>
+  <div className="lg:px-16">
+              <div className="features-right lg:pl-16">
+                {FeatureList.map((feature) => (
+                  <Feature
+                    key={feature.id}
+                    icon={feature.icon}
+                    heading={feature.heading}
+                    text={feature.text}
+                  />
+                ))}
+              </div>
+            </div>
+</div>
 
-        <div class="hero min-h-screen bg-base-200">
+
+        {/* <div class="hero min-h-screen bg-base-200">
           <div class="hero-content flex-col lg:flex-row">
             <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
             <div>
@@ -47,7 +63,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         {/* <div className="features-content">

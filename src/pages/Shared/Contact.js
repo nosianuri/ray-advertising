@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PrimaryButton from './PrimaryButton';
 import reach from '../../assets/googlemap.jpg';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+        });
+      }, []);
   return (
 
     <div style={{
         background: `url(${reach})`
     }} className='px-10 py-14 flex items-center justify-center'>
-    <div className='bg-white w-[500px] p-8 rounded-2xl shadow-md'>
+    <div className='bg-white w-[500px] p-8 rounded-2xl shadow-md' data-aos="fade-up">
     <div className='text-center pb-5 '>
             <p className='text-4xl pb-3 font-bold text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary'>
             CONTACT US

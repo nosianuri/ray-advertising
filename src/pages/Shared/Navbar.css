@@ -1,0 +1,5 @@
+@media screen and (max-width: 769px) {
+    .navbar-end{
+        display: none;
+    }
+}

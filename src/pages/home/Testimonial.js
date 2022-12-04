@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import quote from '../../assets/quote.png';
 import target1 from '../../assets/low-prices.png';
 import target2 from '../../assets/improve.png';
 import target3 from '../../assets/statistics.png';
 import Review from './Review';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Testimonial = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+        });
+      }, []);
     const reviews =[
         {
             _id: 1,
@@ -29,15 +36,15 @@ const Testimonial = () => {
   return (
     <section className='my-28 px-12'>
         <div className='flex justify-between'>
-            <div>
+            <div data-aos="fade-right">
                 <h4 className='text-3xl text-primary font-bold'>Data- Driven marketing Platform</h4>
                 <h2 className='text-4xl'>Here’s What You’ll Get</h2>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <img src={quote} className= "w-24 lg:w-48 "alt="" />
             </div>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5' data-aos="fade-up">
             {
                 reviews.map(review=> <Review key={review._id} review={review}></Review>)
             }
