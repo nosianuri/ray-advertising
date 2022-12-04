@@ -15,7 +15,7 @@ const Blog = () => {
     <section style={{
         background: `url(${reach})`
     }} className='flex justify-center items-center'>
-<div className='flex-1 hidden lg:block' data-aos="fade-up">
+<div className='flex-1 hidden lg:block' >
     <img  className='mt-[-200px] w-96'  src={blog} alt="" />
 </div>
 <div className='flex-1 p-12' data-aos="fade-left">

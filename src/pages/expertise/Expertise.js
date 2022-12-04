@@ -11,7 +11,6 @@ const Expertise = () => {
     <EBaner />
     <TopText />
       <Features />
-      {/* <Services /> */}
       <Publisher />
     </div>
   )

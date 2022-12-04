@@ -1,5 +1,6 @@
 import React from 'react';
-import Video from '../../assets/Video/hero.mp4';
+import { Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import './Hero.css';
 import { BsMouse } from "react-icons/bs";
 

@@ -12,6 +12,7 @@ import Contact from './pages/contact/Contacts';
 import Privacy from './pages/privacy/Privacy';
 import Home from './pages/home/Home';
 import Footer from './pages/Shared/Footer';
+import NotFound from './pages/Shared/NotFound';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path='/expertise' element={<Expertise />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='/privacy' element={<Privacy />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
   </div>

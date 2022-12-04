@@ -1,5 +1,6 @@
 .navbar-end a:hover{
-    background: #fff;
+    background: #1387f4;
+    color: #fff;
 }
 
 @media screen and (max-width: 769px) {
