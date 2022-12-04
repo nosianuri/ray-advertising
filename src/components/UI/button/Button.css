@@ -1,22 +1,21 @@
 a {
     /* font-size: 1.6rem; */
     font-weight: 300;
-    color: var(--color-white);
+    color: #fff;
     text-decoration: none;
     margin-right: 1rem;
 }
 
 a:hover {
-    color: orangered;
+    color: #1f93ff;
 }
 
-a.btn {
+/* a.btn {
     border: 2px solid var(--color-white);
     border-radius: 5px;
-    /* margin-left: 1rem; */
     font-weight: 500;
     padding: 5px 8px;
-}
+} */
 
 a.btn-dark {
     border: 2px solid var(--color-white);

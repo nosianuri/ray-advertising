@@ -30,7 +30,7 @@ const Banner = () => {
           ></path>
         </svg>
       </span>
-        <span className='relative'>Get Started</span>
+        <span className='relative'><a className='rel' href="/about">Get Started</a></span>
       </button>
     </div>
   </div>

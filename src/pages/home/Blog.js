@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import blog from '../../assets/Marketing.png';
 import reach from '../../assets/subscribe-bg.png';
-import PrimaryButton from '../Shared/PrimaryButton';
+import "./Blog.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,7 +34,7 @@ const Blog = () => {
           ></path>
         </svg>
       </span>
-        <span className='relative'>SEE MORE</span>
+        <span className='relative'><a className='rel' href="/expertise">SEE MORE</a> </span>
       </button>
 </div>
 

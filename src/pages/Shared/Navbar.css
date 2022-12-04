@@ -1,3 +1,7 @@
+.navbar-end a:hover{
+    background: #fff;
+}
+
 @media screen and (max-width: 769px) {
     .navbar-end{
         display: none;

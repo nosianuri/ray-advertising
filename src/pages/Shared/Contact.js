@@ -47,7 +47,7 @@ const Contact = () => {
                    className='peer h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none placeholder-transparent focus:border-blue-600' placeholder='Your message' />
                 <label htmlFor="message" className='absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm' >Your message</label>
             </div>
-            <div className='flex items-center justify-center mt-5'>
+            <div className='flex items-center justify-center mt-10'>
             <button class="btn btn-secondary lg:px-32 font-medium text-white border-2 border-blue py-4 group relative flex items-center overflow-hidden">
       <span className='absolute left-0 w-full h-0 transition-all bg-blue opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease'></span>
       <span className='absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease'>
