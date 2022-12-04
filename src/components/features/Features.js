@@ -16,7 +16,7 @@ const Features = () => {
   }, []);
   return (
     <div id="features">
-      <div className="features mt-16">
+      <div className="features">
         <div className="title">
         <div className="flex justify-center">
         <BsFillBookmarkStarFill color="#1f93ff" size={30} />
@@ -51,7 +51,7 @@ const Features = () => {
           <div class="hero-content flex-col lg:flex-row">
             <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg " data-aos="fade-right" />
             <div>
-              <div className="features-right lg:pl-32" data-aos="fade-left">
+              <div className="features-right lg:pl-32" >
                 {FeatureList.map((feature) => (
                   <Feature
                     key={feature.id}
