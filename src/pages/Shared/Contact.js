@@ -11,9 +11,9 @@ const Contact = () => {
     <div className='bg-base-200 w-[500px] p-8 rounded-2xl shadow-md'>
     <div className='text-center pb-5 '>
             <p className='text-4xl pb-3 font-bold text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary'>
-            Get in Touch
+            CONTACT US
             </p>
-            <h1 className='text-xl'>Stay connected with us</h1>
+            <h1 className='text-xl'>We are here to help you grow your business</h1>
         </div>
         <div className='grid grid-cols-1 justify-items-center gap-5 '>
             <input

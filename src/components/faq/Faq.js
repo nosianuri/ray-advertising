@@ -21,7 +21,7 @@ const Faq = () => {
         </div>
           
           <h2>FAQs</h2>
-          <p className="u-text-small">
+          <p className="mb-5">
           Performance & Marketing
           </p>
         </div>

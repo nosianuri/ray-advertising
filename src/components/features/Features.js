@@ -18,7 +18,7 @@ const Features = () => {
 
 
     <div id="features">
-      <div className="features">
+      <div className="features mt-16">
         <div className="title" data-aos="fade-up">
         <div className="flex justify-center">
         <BsFillBookmarkStarFill color="#1f93ff" size={30} />
@@ -31,9 +31,9 @@ const Features = () => {
         </div>
 
 
-        <div class="hero min-h-screen bg-base-200">
+        <div class="hero bg-base-200">
           <div class="hero-content flex-col lg:flex-row">
-            <img src={phoneFeatures} alt="phone" class="max-w-sm rounded-lg shadow-2xl" />
+            <img src={phoneFeatures} alt="phone" class="max-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
             <div>
               <div className="features-right pl-32" data-aos="fade-left">
                 {FeatureList.map((feature) => (

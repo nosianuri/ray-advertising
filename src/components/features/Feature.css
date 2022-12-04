@@ -17,7 +17,7 @@
   }
   
   .feature-text h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.4;
     text-transform: uppercase;
@@ -25,5 +25,5 @@
   }
 
   .feature-text p{
-font-size: 20px;
+font-size: 15px;
   }

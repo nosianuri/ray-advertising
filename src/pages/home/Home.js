@@ -15,17 +15,16 @@ const Home = () => {
     return (
         <div>
             <Hero />
-            
             <Banner />
             <Info />
-            <Services />
+            <Services data-aos="fade-up" />
             <Blog />
             <Testimonial />
             <Contact />
             
             {/* <Service />
     <Download />
-    <Features data-aos="fade-up" />
+    <Features  />
     */}
 
         </div>

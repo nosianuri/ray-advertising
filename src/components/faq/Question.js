@@ -22,7 +22,7 @@ const Question = ({ title, answer }) => {
         </button>
       </div>
       <div className="question-answer">
-        {showAnswer && <p className="u-text-small">{answer}</p>}
+        {showAnswer && <p className="px-5">{answer}</p>}
       </div>
     </div>
   );

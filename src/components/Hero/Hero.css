@@ -56,6 +56,7 @@ font-size: 1.8rem;
     bottom: 0;
     transform: translateX(-50%);
     cursor: pointer;
+    
   }
   
   .floating-icon a {
@@ -91,6 +92,13 @@ font-size: 1.8rem;
         height: 26vh;
     }
     .top-header-text{
-        font-size: 1rem;
+      margin-top: 50px;
+    }
+    .top-header-text h1{
+      font-size: 1rem;
+    }
+    .top-header-text h2{
+        font-size: .8rem;
     }
 }
+

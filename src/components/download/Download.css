@@ -39,8 +39,8 @@ section#download {
   .download-icon {
     margin: 0 auto;
     /* margin: 1rem 2rem; */
-    border: 2px solid #fff;
-    border-radius: 5px;
+    /* border: 2px solid #fff;
+    border-radius: 5px; */
     width: 100%;
     /* display: flex; */
     justify-content: center;
@@ -50,8 +50,8 @@ section#download {
   }
 
   .partner{
-    /* margin-left: 150px;
-    margin-right: 150px; */
+    margin-left: 150px;
+    margin-right: 150px;
     /* text-align: center;
     justify-content: center; */
   }
@@ -70,10 +70,10 @@ section#download {
   } */
 
   @media screen and (max-width: 600px) {
-    /* .partner{
-      margin: 0;
-      
-    } */
+    .partner{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
 
     .download h2 {
       font-size: 2rem;

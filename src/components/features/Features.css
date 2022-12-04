@@ -8,7 +8,7 @@ padding-bottom: 20px;
   }
   
   .title h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.4;
     text-transform: uppercase;
@@ -18,7 +18,7 @@ padding-bottom: 20px;
   
   .title p {
     width: 50%;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     /* min-width: 40rem; */
     margin: 0 auto;
     color: var(--dark-text);
