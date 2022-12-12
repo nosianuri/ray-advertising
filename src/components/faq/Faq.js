@@ -17,7 +17,7 @@ const Faq = () => {
       <div className="faq">
         <div className="text-center" data-aos="fade-up">
         <div className="flex justify-center">
-        <MdOutlineLibraryBooks color="#1f93ff" size={30} />
+        <MdOutlineLibraryBooks color="#006778" size={30} />
         </div>
           
           <h2>FAQs</h2>

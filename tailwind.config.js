@@ -8,8 +8,8 @@ module.exports = {
     themes: [
       {
         raytheme: {
-          primary: "#0a1930",
-          secondary: "#1f93ff",
+          primary: "#006778",
+          secondary: "#00AFC1",
           accent: "#2da5ff",
           neutral: "#333",
           "base-100": "#ffffff",

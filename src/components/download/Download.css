@@ -1,7 +1,7 @@
 section#download {
     background: linear-gradient(
       90deg,
-      rgba(45, 165, 255, 1) 45%,
+      rgb(2, 65, 113) 45%,
       rgba(1, 223, 245, 1) 100%
     );
     /* background: var(--dark-blue); */

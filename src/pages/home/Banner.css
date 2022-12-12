@@ -1,3 +1,25 @@
-.banner{
+/* .banner{
     background: linear-gradient(105deg,#0082ca 70%,#002946 50%);
+} */
+
+.hero-content{
+    max-width: 90rem;
+}
+
+.banner-image{
+    border-radius: 30px 30px 30px 30px;
+    /* box-shadow: 0px 10px 25px 0px rgb(0 0 0 / 100%); */
+    
+}
+
+.banner-duel-img{
+    background-image: linear-gradient(to right top, #ffffff, #d0d4e0, #9aadc1, #5d899f, #006778);
+}
+
+.rel:hover{
+    color: #fff;
+}
+
+.header-right-site{
+    /* width: 500px; */
 }

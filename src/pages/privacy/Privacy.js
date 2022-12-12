@@ -5,7 +5,7 @@ const Privacy = () => {
   return (
     <div className='privacy'>
       <div className='lg:p-16'>
-        <h2 className='lg:text-3xl sm:text-2xl mb-3 pt-16'>WHO WE ARE</h2>
+        <h2 className='lg:text-3xl sm:text-2xl mb-3 '>WHO WE ARE</h2>
         <p className='mb-5'><span className='font-bold'>Suggested text:</span> Our website address is:  <a className='text-secondary' href="https://rayadvertising.com.">https://www.rayadvertising.com.</a> </p>
         <h2 className='lg:text-3xl sm:text-2xl mb-3'>COMMENTS</h2>
         <p className='mb-5'><span className='font-bold'>Suggested text:</span> When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. <br /> An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: <a className='text-secondary' href="https://automattic.com/privacy/">https://automattic.com/privacy/</a> . After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>

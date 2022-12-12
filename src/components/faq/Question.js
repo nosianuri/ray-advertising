@@ -17,7 +17,7 @@ const Question = ({ title, answer }) => {
           {showAnswer ? (
             <AiOutlineMinus color="red" />
           ) : (
-            <AiOutlinePlus color="#1f93ff" />
+            <AiOutlinePlus color="#006778" />
           )}
         </button>
       </div>

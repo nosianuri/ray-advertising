@@ -13,10 +13,14 @@ import Privacy from './pages/privacy/Privacy';
 import Home from './pages/home/Home';
 import Footer from './pages/Shared/Footer';
 import NotFound from './pages/Shared/NotFound';
+import TopHeader from './shared/TopHeader/TopHeader';
+import Header from './shared/Header/Header';
 
 function App() {
   return (
     <div className=''>
+    <TopHeader />
+    {/* <Header /> */}
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />

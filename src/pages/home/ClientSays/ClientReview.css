@@ -1,0 +1,56 @@
+.reviewSlider .swiper-wrapper {
+    height: 210px;
+    /* background: pink; */
+  }
+  .swiper-theme-color{
+    color: #ee6c4d;
+  }
+  
+  .reviewSlider .swiper-button-prev::after,
+  .reviewSlider .swiper-button-next::after {
+    content: '';
+  }
+  
+  .reviewSlider .swiper-button-prev,
+  .reviewSlider .swiper-button-next {
+    display: none;
+    top: 96%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .reviewSlider .swiper-button-prev {
+    left: 88.4%;
+    background-image: url('../../../assets/chevron-left.svg');
+  }
+  
+  .reviewSlider .swiper-button-next {
+    background-image: url('../../../assets/chevron-right.svg');
+    right: 66px;
+  }
+  
+  @media (max-width: 1300px) {
+    .reviewSlider .swiper {
+      height: auto;
+    }
+    .reviewSlider .swiper-wrapper {
+      height: 320px;
+    }
+    .reviewSlider .swiper-button-prev,
+    .reviewSlider .swiper-button-next {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .reviewSlider .swiper-wrapper {
+        height: 340px;
+      }
+      .review-body{
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 2px;
+      }
+  }

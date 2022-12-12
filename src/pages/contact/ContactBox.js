@@ -15,7 +15,7 @@ const ContactBox = () => {
       background: `url(${contactbackground})`
     }} className='flex justify-center items-center mb-16'>
       <div className='flex-1 px-32'>
-        <div className="card w-96 bg-secondary mt-[-90px] text-neutral-content mb-32" >
+        <div className="card w-96 bg-primary mt-[-90px] text-neutral-content mb-32" >
           <div className="card-body items-center text-center text-white" >
             <h2 className="card-title"><i class="fa-solid fa-location-dot"></i>1267 Willis ST STE 200, </h2>
             <h2 className="card-title">Redding, CA, 96001</h2>

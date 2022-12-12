@@ -19,7 +19,7 @@ const Features = () => {
       <div className="features">
         <div className="title">
         <div className="flex justify-center">
-        <BsFillBookmarkStarFill color="#1f93ff" size={30} />
+        <BsFillBookmarkStarFill color="#006778" size={30} />
         </div>
           
           <h2>EXPERTISE</h2>
