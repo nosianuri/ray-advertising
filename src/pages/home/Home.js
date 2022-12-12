@@ -1,6 +1,7 @@
 import React from 'react';
 import Provide from '../Provide/Provide';
 import Contact from '../Shared/Contact';
+import Tweet from '../Shared/Tweet';
 import Banner from './Banner'
 import Blog from './Blog/Blog';
 import ClientSays from './ClientSays/ClientSays';
@@ -16,6 +17,7 @@ const Home = () => {
         <div> 
             
             <MainBanner />
+            <Tweet />
             {/* <Banner /> */}
             <Partner />
             <WeAre />

@@ -20,15 +20,15 @@ const Banner = () => {
       <div className=' lg:pr-14 md:pr-10 '>
        
       <div className=''>
-      <i class="fa-regular fa-square text-4xl text-secondary rotate-[25deg] -right-[90px] -top-[20px] relative"></i>
-      <i class="fa-solid fa-plus relative text-4xl text-[#FFD124] -left-[20px] -top-[-20px]" ></i>
-        <div className='flex justify-between gap-10 lg:mr-20 relative'>
+      {/* <i class="fa-regular fa-square text-4xl text-secondary rotate-[25deg] -right-[90px] -top-[20px] relative"></i>
+      <i class="fa-solid fa-plus relative text-4xl text-[#FFD124] -left-[20px] -top-[-20px]" ></i> */}
+        <div className='flex justify-between gap-10 lg:mr-20 '>
           <div>
           <img width={230} height={100} src={bannerimg} class="max-w-sm rounded-lg !rotate-[25deg] banner-image" alt='tower' data-aos="fade-up" />
           </div>
           <img width={230} height={100} src={bannerphoto} class="max-w-sm rounded-lg !rotate-[25deg] banner-image" alt='tower' data-aos="fade-up" />
         </div>
-        <i class="fa-regular fa-circle relative text-5xl text-secondary -right-[290px]"></i>
+        {/* <i class="fa-regular fa-circle relative text-5xl text-secondary -right-[290px]"></i> */}
         </div>
         </div>
 

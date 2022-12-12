@@ -24,11 +24,11 @@ const MainBanner = () => {
                 backSpeed={120}
               />
             </p>
-            <div className="floating-icon">
+            {/* <div className="floating-icon">
                         <a href="#services">
                             <BsMouse color="#fff" size={25} className="mouse" />
                         </a>
-                    </div>
+                    </div> */}
           </div>
         </div>
       </div>
