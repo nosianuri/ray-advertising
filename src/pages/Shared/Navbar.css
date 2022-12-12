@@ -9,6 +9,12 @@
 .navbar-start{
     height: 100%;
 }
+.menu-compact{
+    background: #fff;
+}
+.menu-compact a{
+    color: #006778;
+}
 
 .navbar .menu a:hover{
     background: #fff !important;

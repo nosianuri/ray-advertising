@@ -39,7 +39,7 @@ const Banner = () => {
           </div>
           
 
-          <p class=" lg:text-xl md:text-xl sm:text-xl mt-3">Ray Creative brings together teams of experts from around the world to match a specific company or project, Marketing & Advertisement. Digital Market Media is the most trusted provider of inbound calls and leads for insurance, financial services, and other industries.</p>
+          <p class=" lg:text-xl md:text-xl sm:text-xl mt-3"> Digital Market Media is the most trusted provider of inbound calls and leads for insurance, financial services, and other industries.</p>
           <div className='flex gap-5'>
             <button class="btn btn-secondary rounded-full lg:px-5 hover:text-white  text-white border-2 border-blue  group relative flex items-center overflow-hidden mt-5">
               {/* <span className='absolute left-0 w-full h-0 transition-all bg-blue opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease'></span>
