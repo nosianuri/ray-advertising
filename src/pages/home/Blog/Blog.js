@@ -17,18 +17,18 @@ const Blog = () => {
 
                         <div className='border-r-2 p-5 bg-base-200 banner-image'>
 
-                            <p className='text-lg border-l-4 border-[#00AFC1] pl-8 mb-5 font-semibold'> Our team of media-buyers and content marketing experts have over 20 years of combined digital marketing expertise.</p>
-                            <p className='text-md '> We are here to deliver you highly engaged customers via social, display, native, or email marketing channels.</p>
+                            <p className='text-lg border-l-4 border-[#4FA1F6] pl-8 mb-5 font-semibold text-primary'> Our team of media-buyers and content marketing experts have over 20 years of combined digital marketing expertise.</p>
+                            <p className='text-md text-primary'> We are here to deliver you highly engaged customers via social, display, native, or email marketing channels.</p>
                             {/* <h2 className='text-md '>It is our mission to build a fully-transparent, brand-safe ecosystem that benefits advertisers.</h2> */}
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Great many corporation solution</p>
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Best branding & advertising agency</p>
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Best commited & money back</p>
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Solid Team working officier</p>
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Great many corporation solution</p>
-                            <p className='mt-3'><i class="fa-solid fa-check text-secondary pr-3"></i>Best branding & advertising agency</p>
-                            <p className='text-sm mt-3 text-secondary'>BOSTER BRANDING </p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Great many corporation solution</p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Best branding & advertising agency</p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Best commited & money back</p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Solid Team working officier</p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Great many corporation solution</p>
+                            <p className='mt-3 text-primary'><i class="fa-solid fa-check text-[#4FA1F6] pr-3"></i>Best branding & advertising agency</p>
+                            <p className='text-sm mt-3 text-[#4FA1F6]'>BOSTER BRANDING </p>
                             <Progress done="88" />
-                            <p className='text-sm mt-3 text-secondary'>ADS INSIGHT</p>
+                            <p className='text-sm mt-3 text-[#4FA1F6]'>ADS INSIGHT</p>
                             <Progress done="96" />
                         </div>
                         <div className=''>

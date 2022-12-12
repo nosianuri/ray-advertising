@@ -15,13 +15,13 @@ const Partner = () => {
         <div className='section mt-28'>
             <div>
                 <div className='section-title-group  mx-auto px-4 lg:px-10 text-center'>
-                    <h5 className='text-secondary'>OUR PARTNER</h5>
+                    <h5 className='text-primary'>OUR PARTNER</h5>
                     <div className='flex justify-center'>
-                    <i class="fa-solid fa-circle text-7xl text-[#FFD124] -right-[135px] -top-[5px] relative"></i>
-                    <h2 className='text-4xl mt-3 mb-3 font-semibold relative -left-[40px]'>Official <span className='text-secondary'>Corporate</span> Partner</h2>
+                    {/* <i class="fa-solid fa-circle text-7xl text-[#FFD124] -right-[135px] -top-[5px] relative"></i> */}
+                    <h2 className='text-4xl mt-3 mb-3 font-semibold text-primary '>Official <span className='text-[#4FA1F6]'>Corporate</span> Partner</h2>
                     </div>
                     
-                    <p className='mx-auto max-w-[550px]'>Our modern approach to marketing techniques, adoption of advanced technology and beyond all our strive for excellence make us the first choice</p>
+                    <p className='mx-auto max-w-[550px] text-primary'>Our modern approach to marketing techniques, adoption of advanced technology and beyond all our strive for excellence make us the first choice</p>
                 </div>
                 <div className='m-10'>
                     <Partners />

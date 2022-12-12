@@ -43,7 +43,7 @@ const ClientReview = () => {
               <div class={`card w-full h-3/2 lg:card-side bg-base-100 border-2 `}>
                 <div class="card-body ">
                 
-                <div className=''>
+                <div className='text-primary'>
                   <h2 className="card-title lg:text-lg text-sm ">{description}</h2>
                   
                   <p className=' text-sm mt-2'>{name}</p>

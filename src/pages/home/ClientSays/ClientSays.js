@@ -17,18 +17,18 @@ const ClientSays = () => {
                         <div className=''>
                             <img className='mb-10 banner-image' src={img2} alt="" />
                             <div className='py-8 lg:px-10 md:px-7 px-3 bg-[#eeeeee] banner-image text-center '>
-                                <h3 className='lg:text-lg md:text-md font-semibold'>Was give the best feedback for our services</h3>
-                                <p>Ray Advertising LLC can be a valuable partner to your business.</p>
+                                <h3 className='lg:text-lg md:text-md font-semibold text-primary'>Was give the best feedback for our services</h3>
+                                <p className='text-primary'>Ray Advertising LLC can be a valuable partner to your business.</p>
                             </div>
                         </div>
                     </div>
                         
 
                         <div className='pl-5'>
-                            <p className='text-sm text-secondary mb-5'>TESTIMONIALS CLIENT</p>
+                            <p className='text-sm text-primary mb-5'>TESTIMONIALS CLIENT</p>
                             <div className='flex'>
-                            <i class="fa-solid fa-circle text-8xl text-[#FFD124] -top-[-5px] relative"></i>
-                            <p className='text-4xl mb-5 font-semibold relative -right-[-85px]'> We have <span className='text-secondary'> more than 1K +</span> Corporation until individuals client & give they best feedback for us
+                            {/* <i class="fa-solid fa-circle text-8xl text-[#FFD124] -top-[-5px] relative"></i> */}
+                            <p className='text-4xl text-primary mb-5 font-semibold '> We have <span className='text-[#4FA1F6] italic'> more than 1K +</span> Corporation until individuals client & give they best feedback for us
                             </p>
                             </div>
                             

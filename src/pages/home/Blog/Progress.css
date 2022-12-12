@@ -8,10 +8,10 @@
 }
 
 .progress-done {
-	background: #FFD124;
-	box-shadow: 0 3px 3px -5px #FFD124, 0 2px 5px #FFD124;
+	background: #F78061;
+	box-shadow: 0 3px 3px -5px #F78061, 0 2px 5px #F78061;
 	border-radius: 20px;
-	color: #006778;
+	color: #0F274F;
 	display: flex;
 	align-items: center;
 	justify-content: center;
