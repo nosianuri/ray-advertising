@@ -51,7 +51,7 @@ class Navbar extends Component {
                 width="100%"
                 fontSize="16px"
                 variant="outline-light"
-                id="action-bttn"><a className='navbtn text-[#12232E] hover:text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/affiliate/signup">Advertiser</a></h2>
+                id="action-bttn"><a className='navbtn text-[#12232E] hover:text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/advertiser/signup">Advertiser</a></h2>
             </div>
 
             <div id='mobile' onClick={this.handleClick}>
