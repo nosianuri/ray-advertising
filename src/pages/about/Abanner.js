@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import about from "../../assets/imgpsh_fullsize_anim2.png";
+import about from "../../assets/imgpsh_fullsize_anim2.jpg";
 import upimg from "../../assets/imgpsh_fullsize (2).png";
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../../shared/variants';
@@ -9,7 +9,8 @@ const Abanner = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   setTimeout(() => {
     setLetterClass('text-animate-hover')
-  }, 3000)
+  }, 3000);
+
   return (
 
     <div class="hero  !bg-no-repeat !bg-cover" style={{

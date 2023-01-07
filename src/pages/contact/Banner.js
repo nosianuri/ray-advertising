@@ -12,7 +12,7 @@ const Banner = () => {
 
   return (
     <div class="hero  !bg-no-repeat !bg-cover" style={{
-      background: `url(https://i.ibb.co/b7pXSwP/networkc.png)` 
+      background: `url(https://i.ibb.co/7n2x63K/networkc.jpg)` 
   }}>
 <div class="hero-overlay bg-black bg-opacity-25"></div>
 <motion.div

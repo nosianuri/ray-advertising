@@ -1,10 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
-import banner from '../../../assets/hero.png';
+import banner from '../../../assets/hero.jpg';
 import "animate.css";
 import './BannerBody.css';
-import AnimatedLetters from '../../../shared/AnimatedLetters/AnimatedLetters';
-import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../../shared/variants';
+
 
 const BannerBody = () => {
     const [letterClass, setLetterClass] = useState('text-animate')

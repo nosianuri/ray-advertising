@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import banner from "../../assets/imgpsh_fullsize_anim2.png";
+import banner from "../../assets/imgpsh_fullsize_anim2.jpg";
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../../shared/variants';
 import ServiceBody from './ServiceBody';
