@@ -16,7 +16,7 @@ const CoreFeature = () => {
     }, 3000)
 
   return (
-    <div className='grid-bg bg-base-100 ba-grid anim'>
+    <div>
       <div className='inner'>
         <motion.div
           variants={staggerContainer(0.3, 1)}
@@ -58,8 +58,8 @@ const CoreFeature = () => {
             data-aos-offset='2'
             data-aos-delay='5'
           >
-            <div className=''>
-              <div className=''>
+            <div>
+              <div>
                 <img className='mx-auto mb-[-50px]' src={img1} alt="" />
               </div>
               <div className='text-center text-[#12232E] bg-white px-10 pt-20 core-box'>
@@ -79,8 +79,8 @@ const CoreFeature = () => {
             data-aos-offset='2'
             data-aos-delay='5'
           >
-            <div className=''>
-              <div className=''>
+            <div>
+              <div>
                 <img className='mx-auto mb-[-50px]' src={img2} alt="" />
               </div>
               <div className='text-center bg-white px-10 pt-20 text-[#12232E] core-box'>
@@ -100,9 +100,9 @@ const CoreFeature = () => {
             data-aos-offset='2'
             data-aos-delay='5'
           >
-            <div className=''>
+            <div>
 
-              <div className=''>
+              <div>
                 <img className='mx-auto mb-[-50px]' src={img3} alt="" />
               </div>
               <div className='text-center bg-white px-10 pt-20 text-[#12232E] core-box'>
