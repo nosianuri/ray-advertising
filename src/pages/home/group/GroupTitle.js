@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 
-
 const GroupTitle = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });

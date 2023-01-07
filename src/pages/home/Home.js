@@ -11,7 +11,6 @@ import Trafic from './traffic/Trafic';
 import Advertiser from './traffic/Advertiser';
 import Featured from './traffic/Featured';
 import Navbar from '../../shared/Navbar/Navbar';
-// import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
 
 

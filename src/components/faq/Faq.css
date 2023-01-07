@@ -1,24 +1,19 @@
 .faq h2 {
     font-size: 3rem;
-    /* font-weight: 800; */
+
 }
 
 .faq p {
     font-size: 2rem;
 }
-/* .u-title {
-    text-align: center;
-    margin-bottom: 4rem;
-  } */
 
 .faq {
     width: 100%;
-  /* padding: 8rem 0; */
-    /* text-align: center; */
+  
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    /* padding: 20px 20px; */
+    
 }
 
 @media screen and (max-width: 990px) {

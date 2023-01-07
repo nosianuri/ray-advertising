@@ -5,42 +5,34 @@ import img2 from '../../../assets/icon2-2.gif';
 import img3 from '../../../assets/icon2-4.gif';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../../shared/variants';
 
-gsap.registerPlugin(ScrollTrigger);
+
+// gsap.registerPlugin(ScrollTrigger);
    
-// gsap.utils.toArray('.section').forEach(section => {
+
+
+const CoreFeatures = () => {
+   
+   
+// gsap.utils.toArray('.section').forEach((section, i) => {
 //     ScrollTrigger.create({
 //         trigger: section,
 //         start: 'top top',
 //         pin: true,
 //         pinSpacing: false,
+//         snap: 1,
+//     });
+//     gsap.from(section.children, {
+//         y:50,
+//         opacity: 0, 
+//         scrollTrigger: {
+//             trigger: section,
+//             start: "top center",
+//             end: "top top",
+//             toggleActions: "play none reverse reset",
+//         },
 //     });
 // });
-
-const CoreFeatures = () => {
-   
-   
-gsap.utils.toArray('.section').forEach((section, i) => {
-    ScrollTrigger.create({
-        trigger: section,
-        start: 'top top',
-        pin: true,
-        pinSpacing: false,
-        snap: 1,
-    });
-    gsap.from(section.children, {
-        y:50,
-        opacity: 0, 
-        scrollTrigger: {
-            trigger: section,
-            start: "top center",
-            end: "top top",
-            toggleActions: "play none reverse reset",
-        },
-    });
-});
     
 
     return (
@@ -127,44 +119,7 @@ gsap.utils.toArray('.section').forEach((section, i) => {
             </section>
 
 
-            {/* <div class="section one">
-    <div class="card card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"/></figure>
-  <div class="card-body">
-    <h2 class="card-title">New movie is released!</h2>
-    <p>Click the button to watch on Jetflix app.</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Watch</button>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="section two mt-5">
-<div class="card card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"/></figure>
-  <div class="card-body">
-    <h2 class="card-title">New movie is released!</h2>
-    <p>Click the button to watch on Jetflix app.</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Watch</button>
-    </div>
-  </div>
-</div>
-</div>
-    
-    <div class="section three mt-8">
-    <div class="card card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"/></figure>
-  <div class="card-body">
-    <h2 class="card-title">New movie is released!</h2>
-    <p>Click the button to watch on Jetflix app.</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Watch</button>
-    </div>
-  </div>
-</div>
-</div> */}
+            
         </div>
     )
 }

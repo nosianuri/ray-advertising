@@ -39,7 +39,7 @@ const Abanner = () => {
                 />
               </h1>
             </motion.h1>
-            {/* <p class="py-6 lg:text-2xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p> */}
+            
 
           </div>
         </motion.div>

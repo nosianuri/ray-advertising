@@ -3,8 +3,7 @@ import img from '../../../assets/short.jpg';
 import Faq from '../../../components/faq/Faq';
 import './Faq.css';
 import AOS from 'aos';
-import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../../shared/variants';
+
 
 const Faqs = () => {
     const form = useRef();
@@ -14,10 +13,7 @@ const Faqs = () => {
     return (
         <div>
             <div className='lg:relative w-full h-full lg:pb-[500px] pb-8'>
-
                 <img className='' src={img} alt="" />
-
-
                 <div className='lg:absolute lg:top-[200px] lg:w-full lg:h-full lg:left-0'>
                 <div className='lg:w-full lg:h-full'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 lg:mx-28 lg:gap-10 justify-center '>
@@ -25,8 +21,6 @@ const Faqs = () => {
                         <div className="lg:pt-[170px]">
                         <Faq />
                         </div>
-                        
-
                         <div className='mx-2'>                            
                                 <div class="box" ref={form}>
                                     <div class="form">

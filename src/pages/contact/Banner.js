@@ -36,7 +36,7 @@ const Banner = () => {
                   idx={15}
                 />
       </h1>
-      {/* <p class="py-6 lg:text-2xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p> */}
+      
       </motion.h1>
     </div>
   </div>

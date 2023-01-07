@@ -54,51 +54,14 @@ const BannerBody = () => {
 
                         <div className='relative lg:mt-8 mt-8'>
 
-                            {/* <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 lg:px-12 md:px-10'>
-                        <div className='bannerbody-img '>
-                            <TrackVisibility>
-                                {({ isVisible }) =>
-                                    <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                        <img src={bannerimg} alt="Header Img" />
-                                    </div>}
-                            </TrackVisibility>   
-                        </div>
-                       
-                    </div> */}
-
-                            {/* <div className=' relative lg:left-[1120px] left-[120px] text-white'>
-                                        <div className='scrollarrow'>
-                                            <i class="fa-solid fa-arrow-down text-3xl "></i>
-                                        </div>
-                                        <div className='relative right-16'>
-                                            <h1 className='scroll'>scroll</h1>
-                                        </div>
-
-                                    </div> */}
+                            
 
                         </div>
 
                     </div>
 
                 </div>
-                {/* <Wave mask="url(#mask)" fill="#8a49ff"
-                paused={false}
-                options={{
-                    height: 0,
-                    amplitude: 40,
-                    speed: 0.35,
-                    points: 8
-                }}>
-                <defs>
-                    <linearGradient id="gradient" gradientTransform="rotate(90)">
-                        <stop offset="0" stopColor="white" />
-                        <stop offset="0.5" stopColor="black" />
-                    </linearGradient>
-                    <mask id="mask">
-                        <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)" />
-                    </mask>
-                </defs>
-            </Wave> */}
+                
 
             </div>
         </div>

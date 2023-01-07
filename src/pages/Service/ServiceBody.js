@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './Servicebody.css';
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../shared/variants';
+import { fadeIn } from '../../shared/variants';
 
 gsap.registerPlugin(ScrollTrigger);
 

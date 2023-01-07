@@ -6,8 +6,6 @@ import Footer from '../Shared/Footer';
 import Banner from './Banner';
 import ContactBody from './ContactBody';
 
-
-
 const Contacts = () => {
   useEffect(() => {
     document.title = "Contact Us | Ray Advertising LLC";
@@ -21,7 +19,6 @@ const Contacts = () => {
       <GroupTitle />
       <Group />
       <Footer />
-
     </div>
   )
 }

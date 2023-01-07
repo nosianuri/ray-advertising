@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import Faq from '../../components/faq/Faq';
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../shared/variants';
+import { fadeIn } from '../../shared/variants';
 
 const ContactBody = () => {
     const form = useRef();
@@ -43,10 +43,7 @@ const ContactBody = () => {
                                     <span>Enter your message</span>
                                     <i></i>
                                 </div>
-                                {/* <div class="links">
-                                    <a href="#">Forget Password</a>
-                                    <a href="#">Signup</a>
-                                </div> */}
+                               
                                 <input  type="submit" value="SUBMIT MESSAGE" />
                             </div>
                         </div>

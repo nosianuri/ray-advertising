@@ -2,7 +2,7 @@ import React from 'react'
 import career from "../../assets/builderon.png";
 import "animate.css";
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../shared/variants';
+import { staggerContainer } from '../../shared/variants';
 
 const Career = () => {
   return (

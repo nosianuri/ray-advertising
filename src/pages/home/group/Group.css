@@ -18,14 +18,11 @@
   padding: 10px 30px;
   font-weight: 900;
   font-size: 16px;
-  /* letter-spacing: 2px; */
-  /* background: none; */
   color: #12232E;
   border-radius: 5px;
   text-transform: uppercase;
   outline: 0;
   z-index: 1;
-  /* border: 2px solid whitesmoke; */
 }
 
 #action-btn:hover {
