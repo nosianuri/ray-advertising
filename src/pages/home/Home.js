@@ -5,7 +5,7 @@ import Faqs from './Faq/Faqs';
 import Group from './group/Group';
 import GroupTitle from './group/GroupTitle';
 import Projects from './Projects/Projects';
-import img1 from "../../assets/blue_anim.png";
+import img1 from "../../assets/blue_anim.jpg";
 import img2 from "../../assets/imgpsh_fullsize (2).png";
 import Trafic from './traffic/Trafic';
 import Advertiser from './traffic/Advertiser';
@@ -27,7 +27,7 @@ useEffect(() => {
             <CoreFeature />
             <Trafic />
             <Advertiser />
-            <img src={img1} alt="" />
+            <img className='w-full' src={img1} alt="" />
             <Projects />
             <img className='' src={img2} alt="" />
             <Featured />

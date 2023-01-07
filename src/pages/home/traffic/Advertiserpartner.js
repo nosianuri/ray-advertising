@@ -30,13 +30,11 @@ const Advertiserpartner = () => {
           <SwiperSlide
             key={idx}
           >
-            <div class={`card  lg:card-side bg-base-100  pt-2`}>
-              <div class="card-body ">
-
-                <div className=''>
+            <div class={`lg:card-side bg-base-100  pt-2`}>
+                <div className='lg:p-3 p-2'>
                   <img src={image} alt="" />
                 </div>
-              </div>
+              
             </div>
 
           </SwiperSlide>

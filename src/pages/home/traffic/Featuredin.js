@@ -19,37 +19,25 @@ const Featuredin = () => {
         spaceBetween={5}
         autoplay={true}
         navigation
-        // pagination={{ clickable: true }}
-        // grabCursor={true}
-        // breakpoints={{
-        //   768: {
-        //     slidesPerView: 1,
-        //   },
-        //   1024: {
-        //     slidesPerView: 5,
-        //   },
-        // }}
+        
         modules={[Navigation, Autoplay, Pagination]}
         className='reviewSlider core-box'
       >
         {programs.map((program, idx) => {
-          // destructure program
-          const { image, name } = program;
+         
+          const { image } = program;
   
           return (
   
             <SwiperSlide
               key={idx}
             >
-              <div class={`card  lg:card-side bg-base-100  pt-2`}>
-                <div class="card-body ">
-                
-                <div className=''>
+              <div class={`lg:card-side bg-base-100 pt-2`}>
+                <div className='lg:p-4 p-2'>
                   <img src={image} alt="" />
                   </div>
                 </div>
-              </div>
-  
+            
             </SwiperSlide>
   
           );

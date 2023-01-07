@@ -3,7 +3,7 @@ import AOS from 'aos';
 import './projects.css';
 import img2 from '../../../assets/imgpsh_fullsize (2).png';
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../../shared/variants';
+import { fadeIn } from '../../../shared/variants';
 
 const Projects = () => {
     useEffect(() => {

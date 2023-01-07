@@ -29,40 +29,29 @@ const BannerBody = () => {
                                 </div>
                             </div>
 
-                            <h1 className='mx-w-lg lg:text-[50px] h1 mb-2 text-[20px] font-[900] text-white'>
+                            <h1 className=' lg:text-[50px] mb-2 text-[20px] font-[900] text-white'>
                                 PERFECT MARKETING WITH PERFECT PARTNER
                             </h1>
 
-                            <p className='lg:text-lg text-center text-white'>Aims to be the final destination for our advertisers and affiliate partners.</p>
+                            <p className='lg:text-lg  text-white !leading-normal'>Aims to be the final destination for our advertisers and affiliate partners.</p>
                         </div>
 
-                        <div className='uppercase flex justify-center gap-5 lg:hidden block mt-5'>
-                            <h2 className='btn text-md text-white bg-[#FD5D14] hover:bg-[#e36912]' padding="10px 10px"
+                        <div className='uppercase flex justify-center gap-5 lg:hidden block my-5'>
+                            <h2 className='btn text-md ' padding="10px 10px"
                                 border-color="#e64100"
                                 width="100%"
                                 fontSize="16px"
                                 variant="outline-light"
                                 id="action-bttn"><a className='navbtn text-[#12232E] hover:text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/affiliate/signup">Publisher</a></h2>
-                            <h2 className='btn text-md text-white bg-[#FD5D14] hover:bg-[#e36912]' padding="10px 10px"
+                            <h2 className='btn text-md ' padding="10px 10px"
                                 border-color="#e64100"
                                 width="100%"
                                 fontSize="16px"
                                 variant="outline-light"
                                 id="action-bttn"><a className='navbtn text-[#12232E] hover:text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/advertiser/signup">Advertiser</a> </h2>
-                        </div>
-
-
-                        <div className='relative lg:mt-8 mt-8'>
-
-                            
-
-                        </div>
-
+                        </div> 
                     </div>
-
                 </div>
-                
-
             </div>
         </div>
     )
