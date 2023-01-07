@@ -17,21 +17,12 @@ const Advertiserpartner = () => {
       spaceBetween={5}
       autoplay={true}
       navigation
-      // pagination={{ clickable: true }}
-      // grabCursor={true}
-      // breakpoints={{
-      //   768: {
-      //     slidesPerView: 1,
-      //   },
-      //   1024: {
-      //     slidesPerView: 1,
-      //   },
-      // }}
+      
       modules={[Navigation, Autoplay, Pagination]}
       className='reviewSlider core-box'
     >
       {programs.map((program, idx) => {
-        // destructure program
+       
         const { image, name } = program;
 
         return (

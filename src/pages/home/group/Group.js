@@ -55,7 +55,7 @@ const Group = () => {
                             id="action-btn"
                             
                         >
-                        <a className='text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/affiliate/signup">Sign Up</a>
+                        <a className='text-[#12232E] font-[900]' href="https://rayadvertising.everflowclient.io/advertiser/signup">Sign Up</a>
                             
                         </button>
                     </div>
