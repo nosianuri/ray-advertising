@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div>
           <i class="fa-solid fa-envelope pr-2 lg:text-xl"></i>
-          <a href='http://contact@rayadvertising.com' class="link link-hover hover:text-[#45f3ff] lg:text-lg hover:no-underline">contact@rayadvertising.com</a>
+          <a href='mailto:contact@rayadvertising.com' class="link link-hover hover:text-[#45f3ff] lg:text-lg hover:no-underline">contact@rayadvertising.com</a>
           </div>
           <div className='flex mb-3'>
           <i class="fa-solid fa-location-dot pr-2 lg:text-xl"></i>
@@ -95,38 +95,9 @@ const Footer = () => {
       <div className=' text-white lg:text-sm text-center lg:pl-10 py-5'>
         <p>Copyright © 2023 Ray Advertising LLC | All rights reserved</p>
       </div>
-      {/* <div className='fixed top-56 left-[-2px]'>
-        <p className='font-com lg:text-2xl font-semibold text-white bg-[#FF4B1B] '>
-          <a href="https://www.facebook.com/rayadvertisingllc/"><i class="fa-brands fa-facebook pl-3 text-[#fff] lg:text-2xl"></i></a>
-        </p>
-        <p className='bg-[#FF4B1B] '>
-          <a href="/"><i class="fa-brands fa-twitter pl-3 text-[#fff] lg:text-2xl"></i></a>
-        </p>
-        <p className='bg-[#FF4B1B]'>
-          <a href="https://www.linkedin.com/company/rayadvertising"><i class="fa-brands fa-linkedin pl-3 text-[#fff] lg:text-2xl"></i></a>
-        </p>
-       
-      </div> */}
+      
       </div>
-      {/* <footer class="  p-4 bg-primary text-base-content ">
-<div className='border-t border-base-300'>
-<div className='flex justify-between m-4 pt-5 px-5'>
-    
-<div className=' text-white text-sm'>
-    <p>Copyright© 2022 Ray Advertising LLC | All rights reserved</p>
-  </div>
-    <div className='text-white'>Follow Us: <span className='text-lg '>
-    <a href="https://www.facebook.com/rayadvertisingllc/"><i class="fa-brands fa-facebook pl-3 text-[#FFD124]"></i></a>
-    
-    <a href="https://www.linkedin.com/company/rayadvertising"><i class="fa-brands fa-linkedin  text-[#FFD124]"></i></a>
-    
-    <i class="fa-brands fa-twitter  text-[#FFD124]"></i>
-    </span></div>
-    </div>
-
-  
-  </div>
-</footer> */}
+      
     </div>
   )
 }
