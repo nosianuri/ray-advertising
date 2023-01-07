@@ -14,11 +14,11 @@ const ClientReview = () => {
     const { programs } = reviews;
     return (
       <Swiper
-        slidesPerView={1}
-        spaceBetween={32}
+        slidesPerView={5}
+        spaceBetween={5}
         autoplay={true}
         navigation
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         // grabCursor={true}
         // breakpoints={{
         //   768: {
@@ -29,24 +29,22 @@ const ClientReview = () => {
         //   },
         // }}
         modules={[Navigation, Autoplay, Pagination]}
-        className='reviewSlider'
+        className='reviewSlider core-box'
       >
         {programs.map((program, idx) => {
           // destructure program
-          const { description, name } = program;
+          const { image, name } = program;
   
           return (
   
             <SwiperSlide
               key={idx}
             >
-              <div class={`card w-full h-3/2 lg:card-side bg-base-100 border-2 `}>
+              <div class={`card w-full h-3/2 lg:card-side bg-base-100  pt-2`}>
                 <div class="card-body ">
                 
                 <div className='text-primary'>
-                  <h2 className="card-title lg:text-lg text-sm ">{description}</h2>
-                  
-                  <p className=' text-sm mt-2'>{name}</p>
+                  <img src={image} alt="" />
                   </div>
                 </div>
               </div>

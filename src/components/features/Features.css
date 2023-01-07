@@ -9,8 +9,7 @@ padding-bottom: 20px;
   
   .title h2 {
     font-size: 2rem;
-    /* font-weight: 700; */
-    /* line-height: 1.4; */
+    
     text-transform: uppercase;
     color: var(--dark-text);
     margin: 1.5rem 0;
@@ -19,7 +18,7 @@ padding-bottom: 20px;
   .title p {
     width: 50%;
     font-size: 1.3rem;
-    /* min-width: 40rem; */
+   
     margin: 0 auto;
   }
   
@@ -50,6 +49,6 @@ padding-bottom: 20px;
     }
     .title h2{
       font-size: 1.5rem;
-      /* font-weight: 800; */
+     
     }
   }

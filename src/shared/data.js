@@ -1,16 +1,22 @@
-import img1 from '../assets/logo24.png';
-import img2 from '../assets/logo23.png';
-import img3 from '../assets/logo20-300x134.png';
-import img4 from '../assets/logo22.png';
-import img5 from '../assets/Untitled-design-4.png';
-import img6 from '../assets/logo21.png';
-import img7 from '../assets/logo17.png';
-import img8 from '../assets/logo16.png';
-import img9 from '../assets/admin-ajax.png';
-import img10 from '../assets/Allstate-Logo-1999-2006-2048x1152.png';
-import img11 from '../assets/Contact.io-Logo-no-messaging.png';
-import img12 from '../assets/download (2).png';
-import img13 from '../assets/logo6-300x134-1.png';
+import img1 from '../assets/google.png';
+import img2 from '../assets/facebook.png';
+import img3 from '../assets/linkedin.png';
+import img4 from '../assets/tiktok.png';
+import img5 from '../assets/bidtecel.png';
+import img6 from '../assets/powerinbox.png';
+import feat1 from '../assets/affyexpo.png';
+import feat2 from '../assets/summitwest.png';
+import feat3 from '../assets/affliateeast.png';
+import feat4 from '../assets/contactio.png';
+import feat5 from '../assets/leadcon.png';
+import feat6 from '../assets/leadgen.png';
+import work1 from '../assets/ehealth.png';
+import work2 from '../assets/assurance.png';
+import work3 from '../assets/statefarm.png';
+import work4 from '../assets/gohealth.png';
+import work5 from '../assets/vivint.png';
+import work6 from '../assets/everquote.png';
+
 
 
 export const facts = [
@@ -36,6 +42,93 @@ export const facts = [
     title: 'The proof is in the reviews',
     programs: [
       {
+        image: work1,
+      },
+      {
+        image: work2,
+      },
+      {
+        image: work3,
+      },
+      {
+        image: work4,
+      },
+      {
+        image: work5,
+      },
+      {
+        image: work6,
+      },
+      {
+        image: work1,
+      },
+      {
+        image: work2,
+      },
+      {
+        image: work3,
+      },
+      {
+        image: work4,
+      },
+      {
+        image: work5,
+      },
+      {
+        image: work6,
+      },
+      
+    ],
+  };
+  export const featured = {
+   
+    title: 'The proof is in the featured',
+    programs: [
+      {
+        image: feat1,
+      },
+      {
+        image: feat2,
+      },
+      {
+        image: feat3,
+      },
+      {
+        image: feat4,
+      },
+      {
+        image: feat5,
+      },
+      {
+        image: feat6,
+      },
+      {
+        image: feat1,
+      },
+      {
+        image: feat2,
+      },
+      {
+        image:feat3,
+      },
+      {
+        image: feat4,
+      },
+      {
+        image: feat5,
+      },
+      {
+        image: feat6,
+      },
+      
+    ],
+  };
+
+  export const reviews = {
+   
+    title: 'The proof is in the reviews',
+    programs: [
+      {
         image: img1,
       },
       {
@@ -54,71 +147,22 @@ export const facts = [
         image: img6,
       },
       {
-        image: img7,
+        image: img1,
       },
       {
-        image: img8,
-      },
-      
-      {
-        image: img9,
-      },
-      
-      {
-        image: img10,
-      },
-      
-      {
-        image: img11,
-      },
-      
-      {
-        image: img12,
-      },
-      
-      {
-        image: img13,
-      },
-      
-      
-    ],
-  };
-
-  export const reviews = {
-   
-    title: 'The proof is in the reviews',
-    programs: [
-      {
-        description: '"I trust them to always deliver no matter the project’s size. They’re dependable and brilliant."',
-        name: 'Maria Garcia',
+        image: img2,
       },
       {
-        description: '"The communication with their team is seamless and overall just amazing."',
-        name: 'Aiden Markram',
+        image: img3,
       },
       {
-        description: '"Their enthusiasm was impressive."',
-        name: 'Paul Konerko',
+        image: img4,
       },
       {
-        description: '"They leave no stone unturned and have been extremely transparent about all aspects of campaign management."',
-        name: 'Shai Hope',
+        image: img5,
       },
       {
-        description: '“Every year, they project results that seem ambitious, but they always hit them.”',
-        name: 'Ralph Kiner',
-      },
-      {
-        description: '"They execute beautifully and are highly strategic in the process, plus we enjoy working with them."',
-        name: 'Kane Williamson',
-      },
-      {
-        description: '“Great customer service and easy to deal with. SimpliSafe is still the king.”',
-        name: 'Dave Pallone',
-      },
-      {
-        description: '“The experience is magical & great. Best overall service of 2022”',
-        name: 'Maria Garcia',
+        image: img6,
       },
       
     ],

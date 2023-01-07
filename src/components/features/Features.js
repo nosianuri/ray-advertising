@@ -28,23 +28,7 @@ const Features = () => {
           </p>
         </div>
         <div class="divider w-28 flex items-center justify-center mx-auto"></div>
-        {/* <div class="card card-side bg-base-100">
-  <figure>
-  <img src={phoneFeatures} alt="phone" class="mx-w-sm rounded-lg" />
-  </figure>
-  <div className="lg:px-16">
-              <div className="features-right lg:pl-16">
-                {FeatureList.map((feature) => (
-                  <Feature
-                    key={feature.id}
-                    icon={feature.icon}
-                    heading={feature.heading}
-                    text={feature.text}
-                  />
-                ))}
-              </div>
-            </div>
-</div> */}
+        
 
 
         <div class="hero min-h-screen bg-white">
@@ -66,21 +50,7 @@ const Features = () => {
         </div>
 
 
-        {/* <div className="features-content">
-          <div className="features-left" data-aos="fade-right">
-            <img src={phoneFeatures} alt="phone" />
-          </div>
-          <div className="features-right" data-aos="fade-left">
-            {FeatureList.map((feature) => (
-              <Feature
-                key={feature.id}
-                icon={feature.icon}
-                heading={feature.heading}
-                text={feature.text}
-              />
-            ))}
-          </div>
-        </div> */}
+       
       </div>
     </div>
   );

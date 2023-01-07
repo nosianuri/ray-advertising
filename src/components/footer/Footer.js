@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 import logo from "../../assets/Ray-Logo-white.png";
 import {
   FaMapMarkerAlt,

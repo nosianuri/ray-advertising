@@ -40,9 +40,9 @@ font-weight: 800;
     background: #fff;
     border-radius: 5px;
     padding: 35px 20px;
-    /* min-width: 225px;
-    min-height: 315px; */
-    width: 100%;
+    min-width: 225px;
+    min-height: 315px;
+    /* width: 100%; */
     text-align: center;
     /* border: 2px solid #000000; */
     margin: 0 20px;
@@ -57,7 +57,8 @@ font-weight: 800;
 .service-wrap .service-inner img {
     width: 150px;
     /* height: 80px; */
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {

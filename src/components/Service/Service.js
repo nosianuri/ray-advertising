@@ -3,7 +3,6 @@ import './Service.css';
 import service1 from "../../assets/WarmTransferIMG.png";
 import service2 from "../../assets/InboundCallIMG.png";
 import service3 from "../../assets/ExecLeadIMG.png";
-import service4 from "../../assets/2 Accelerate and simplify.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -38,14 +37,14 @@ const Service = () => {
                 </div>
                 <div className='service-inner'>
                    
-                    <img src={service3} alt="" />
+                    <img className='justify-center' src={service3} alt="" />
                   
                     <div className='right-card'>
                         <h3>Affiliate Network</h3>
                         <p>Affiliate Partner Network: The key to a successful affiliate marketing campaign is to build relationships with people and companies.</p>
                     </div>
                 </div>
-                <div className='service-inner'>
+                {/* <div className='service-inner'>
                    
                     <img src={service4} alt="" />
                    
@@ -53,7 +52,7 @@ const Service = () => {
                         <h3>Brand Safety</h3>
                         <p>It is our mission to build a fully-transparent, brand-safe ecosystem that benefits advertisers, publishers, and consumers</p>
                     </div>
-                </div>
+                </div> */}
                 </div>
             </div>
         </div>

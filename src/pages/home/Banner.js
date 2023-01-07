@@ -33,13 +33,14 @@ const Banner = () => {
         </div>
 
         <div className=' lg:pr-32 lg:ml-10 md:ml-8'>
-          <h5 className='text-secondary '>BRANDING AGENCY SERVICES</h5>
-          <div><i class="fa-solid fa-circle text-8xl text-[#FFD124]  -right-[5px] -top-[-30px] relative"></i>
-            <h1 class="lg:text-4xl md:text-3xl sm:text-2xl font-semibold !leading-normal relative mt-[-65px]">We Are <span className='text-secondary !font-semibold'>Branding Solution</span> And Advertising Agency</h1>
+          <h5 className='text-primary '>BRANDING AGENCY SERVICES</h5>
+          <div>
+          {/* <i class="fa-solid fa-circle text-8xl text-[#FFD124]  -right-[5px] -top-[-30px] relative"></i> */}
+            <h1 class="lg:text-4xl md:text-3xl sm:text-2xl font-semibold !leading-normal text-primary">We Are <span className='text-[#4FA1F6] !font-semibold'>Branding Solution</span> And Advertising Agency</h1>
           </div>
           
 
-          <p class=" lg:text-xl md:text-xl sm:text-xl mt-3"> Digital Market Media is the most trusted provider of inbound calls and leads for insurance, financial services, and other industries.</p>
+          <p class=" lg:text-xl md:text-xl text-primary sm:text-xl mt-3"> Digital Market Media is the most trusted provider of inbound calls and leads for insurance, financial services, and other industries.</p>
           <div className='flex gap-5'>
             <button class="btn btn-secondary rounded-full lg:px-5 hover:text-white  text-white border-2 border-blue  group relative flex items-center overflow-hidden mt-5">
               {/* <span className='absolute left-0 w-full h-0 transition-all bg-blue opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease'></span>

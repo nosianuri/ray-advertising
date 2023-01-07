@@ -1,19 +1,50 @@
-import React from 'react';
-import transform from "../../assets/Services.png";
+import React, { useState } from 'react';
+import imgup from "../../assets/imgpsh_fullsize (2).png";
+import { motion } from 'framer-motion';
+import { fadeIn, staggerContainer } from '../../shared/variants';
+import AnimatedLetters from '../../shared/AnimatedLetters/AnimatedLetters';
 
 const Banner = () => {
+  const [letterClass, setLetterClass] = useState('text-animate')
+  setTimeout(() => {
+    setLetterClass('text-animate-hover')
+  }, 3000)
+
   return (
-    <div class="hero min-h-screen bg-white">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src={transform} class="max-w-sm rounded-lg shadow-2xl" />
-        <div className='lg:pr-16'>
-          <h1 class="lg:text-5xl md:text-3xl sm:text-2xl ">Partner with us to change the way you work.</h1>
-          <p class="pt-6 lg:text-xl lg:pr-16">At Ray Advertising performance marketing is in our DNA. We’re digital marketing experts that continue to explore creative methods to engage more meaningfully with users.</p>
-          <div class="divider w-1/2 secondary"></div>
-          <p class=" lg:text-xl lg:pr-16">We are designing a demand pathway optimization solution that ensures results, transparency, and control to partners via a standalone intermediation platform.</p>
-        </div>
-      </div>
+    <div class="hero  !bg-no-repeat !bg-cover" style={{
+      background: `url(https://i.ibb.co/b7pXSwP/networkc.png)` 
+  }}>
+<div class="hero-overlay bg-black bg-opacity-25"></div>
+<motion.div
+          variants={staggerContainer(0.3, 1)}
+          initial='hidden'
+          whileInView={'show'}
+
+        >
+<div class="hero-content  text-white">
+    <div class="max-w-lg lg:pt-30 pt-28">
+    <motion.h1
+              variants={fadeIn('down', 'tween', 0.3, 1.1)}
+              initial='hidden'
+          whileInView={'show'}
+              className='h1 lg:mb-5'
+            >
+      <h1 class="mb-5 lg:text-7xl md:text-3xl text-2xl font-bold text-center">
+      <AnimatedLetters
+                  letterClass={letterClass}
+                  strArray={['C', 'O', 'N', 'T', 'A', 'C', 'T', ' ', ' ', ' ', 'U', 'S', ]}
+                  idx={15}
+                />
+      </h1>
+      {/* <p class="py-6 lg:text-2xl md:text-2xl sm:text-xl">Everything you need to know about our values and achievements</p> */}
+      </motion.h1>
     </div>
+  </div>
+  </motion.div>
+  <div className='lg:mt-32 pt-32'>
+  <img className='lg:mt-32 pt-36' src={imgup} alt="" />
+  </div>
+</div>
   )
 }
 

@@ -3,12 +3,12 @@ a {
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
-a:hover {
+/* a:hover {
     color: #1f93ff;
-}
+} */
 
 /* a.btn {
     border: 2px solid var(--color-white);

@@ -1,9 +1,12 @@
 .reviewSlider .swiper-wrapper {
-    height: 210px;
+    height: 100px;
     /* background: pink; */
   }
   .swiper-theme-color{
     color: #ee6c4d;
+  }
+  .card-body{
+    padding: var(--padding-card, .6rem);
   }
   
   .reviewSlider .swiper-button-prev::after,
@@ -46,7 +49,8 @@
   
   @media screen and (max-width: 780px) {
     .reviewSlider .swiper-wrapper {
-        height: 340px;
+        height: 50px;
+       
       }
       .review-body{
         padding-top: 20px;

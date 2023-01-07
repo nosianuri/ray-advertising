@@ -6,7 +6,7 @@ const Provide = () => {
   return (
     <div className='mx-10 mb-32'>
         <ProvideService />
-        <div  class="divider"></div>
+        <div  class="divider mt-0 mb-0 h-0"></div>
         <ProvideServices />
     </div>
   )

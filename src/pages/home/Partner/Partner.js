@@ -1,46 +1,41 @@
 import React from 'react';
-// import img1 from '../../../assets/logo24.png';
-// import img2 from '../../../assets/logo23.png';
-// import img3 from '../../../assets/logo20-300x134.png';
-// import img4 from '../../../assets/logo22.png';
-// import img5 from '../../../assets/Untitled-design-4.png';
-// import img6 from '../../../assets/logo21.png';
-// import img7 from '../../../assets/logo17.png';
-// import img8 from '../../../assets/logo16.png';
-
-import Partners from './Partners';
+import logo1 from "../../../assets/logo6-300x134-1.png";
+import logo2 from "../../../assets/Contact.io-Logo-no-messaging.png";
+import logo3 from "../../../assets/logo15-300x134-1.png";
+import logo4 from "../../../assets/download (2).png";
+import logo5 from "../../../assets/download-2.png";
+import logo6 from "../../../assets/images-300x89-1.png";
 
 const Partner = () => {
     return (
-        <div className='section mt-28'>
-            <div>
+        <div className='section mt-28 border-y-2 border-gray-200'>
+            <div className='py-10'>
                 <div className='section-title-group  mx-auto px-4 lg:px-10 text-center'>
-                    <h5 className='text-primary'>OUR PARTNER</h5>
-                    <div className='flex justify-center'>
-                    {/* <i class="fa-solid fa-circle text-7xl text-[#FFD124] -right-[135px] -top-[5px] relative"></i> */}
-                    <h2 className='text-4xl mt-3 mb-3 font-semibold text-primary '>Official <span className='text-[#4FA1F6]'>Corporate</span> Partner</h2>
-                    </div>
                     
-                    <p className='mx-auto max-w-[550px] text-primary'>Our modern approach to marketing techniques, adoption of advanced technology and beyond all our strive for excellence make us the first choice</p>
-                </div>
-                <div className='m-10'>
-                    <Partners />
-                </div>
-                {/* <div className='slide-body'>
-                    <div className='slide'>
-                        <div className='slide-track'>
+                    <div className='flex justify-center'>
 
-                            <div className='slide'><img src={img1} alt="" /></div>
-                            <div className='slide'><img src={img2} alt="" /></div>
-                            <div className='slide'><img src={img3} alt="" /></div>
-                            <div className='slide'><img src={img4} alt="" /></div>
-                            <div className='slide'><img src={img5} alt="" /></div>
-                            <div className='slide'><img src={img6} alt="" /></div>
-                            <div className='slide'><img src={img7} alt="" /></div>
-                            <div className='slide'><img src={img8} alt="" /></div>
-                        </div>
+                        <h2 className='text-4xl mt-3 mb-3 font-semibold  '>Official <span className=''>Corporate</span> Partner</h2>
                     </div>
-                </div> */}
+
+                    <p className='mx-auto max-w-[550px]  mb-10 text-sm'>Our modern approach to marketing techniques, adoption of advanced technology and beyond all our strive for excellence make us the first choice</p>
+                </div>
+                <div className='mx-10'>
+                    <div className="partner-logo lg:mx-20 mx-5">
+                        <div className='lg:pl-8 '>
+                        <div className="lg:flex mx-auto justify-center gap-5 w-[120px] ">
+                            <img className=" transform transition-all " src={logo1} alt="" />
+                            <img className="image-icon transform transition-all " src={logo2} alt="" />
+                            <img className="image-icon transform transition-all " src={logo3} alt="" />
+                            <img className="image-icon transform transition-all " src={logo4} alt="" />
+                            <img className="image-icon transform transition-all " src={logo5} alt="" />
+                            <img className="image-icon transform transition-all " src={logo6} alt="" />
+                            
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     )

@@ -28,15 +28,11 @@
     font-weight: 800;
   }
   
-  h1 span:nth-child(2),
-  h1 span:nth-child(3) {
-    font-weight: 100;
-    font-size: 3rem;
-  }
+  
   
   .header h1::after {
     content: "";
-    /* position: absolute; */
+   
     left: 0;
     bottom: 0;
     width: 65%;
@@ -54,13 +50,13 @@
   .header-left p {
     margin: 3rem 0;
     color: var(--color-white);
-    /* width: 70%; */
+    
     font-size: 20px;
   }
   
   .header-right img {
     width: 100%;
-    /* position: relative; */
+   
   }
   
   

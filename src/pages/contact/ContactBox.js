@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import contactbackground from "../../assets/subscribe-bg.png";
+import contactbackground from "../../assets/network.jpg";
 import phone from "../../assets/phone.png";
 import AOS from "aos";
 import "aos/dist/aos.css";

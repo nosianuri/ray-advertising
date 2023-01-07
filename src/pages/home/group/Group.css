@@ -1,0 +1,102 @@
+.a.contact-button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  max-width: 200px;
+  line-height: 50px;
+  position: relative;
+  margin: 50px 0;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+}
+
+
+#action-btn {
+  background: #45f3ff;
+  margin-top: 10px;
+  position: relative;
+  padding: 10px 30px;
+  font-weight: 900;
+  font-size: 16px;
+  /* letter-spacing: 2px; */
+  /* background: none; */
+  color: #12232E;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: 0;
+  z-index: 1;
+  /* border: 2px solid whitesmoke; */
+}
+
+#action-btn:hover {
+  color: #12232E;
+}
+
+#action-btn::before {
+  content: "";
+ 
+  position: absolute;
+  background: #fff;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  top: 0;
+  z-index: -1;
+  -webkit-transition: right 0.3s ease-in;
+}
+
+#action-btn:hover::before {
+  right: 0;
+}
+
+
+.contact-button div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 15px 0 15px;
+}
+
+.contact-button span.bg {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  left: -5%;
+  top: 0;
+  transform: skewX(-10deg);
+  transition: all 0.3s linear;
+}
+
+.contact-button:hover span.bg {
+  background: #FA7C20;
+  width: 110%;
+  border-radius: 0 15px 0 15px;
+}
+
+.contact-button span.base {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 15px 0 15px;
+  border: 1px solid #FA7C20;
+}
+
+.contact-button span.text {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+
+@media screen and (max-width: 780px) {
+  #action-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  }
+}

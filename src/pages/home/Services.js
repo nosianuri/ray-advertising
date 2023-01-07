@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import service1 from "../../assets/WarmTransferIMG.png";
-import service2 from "../../assets/InboundCallIMG.png";
-import service3 from "../../assets/ExecLeadIMG.png";
-import service4 from "../../assets/2 Accelerate and simplify.png";
+import service1 from "../../assets/pay.png";
+import service2 from "../../assets/money-bitcoin.png";
+import service3 from "../../assets/net.png";
+
 import Service from "./Service";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -32,20 +32,15 @@ const Services = () => {
             description: 'Affiliate Partner Network: The key to a successful affiliate marketing campaign is to build relationships with people and companies.',
             img: service3
         },
-        {
-            _id: 4,
-            name: 'Brand Safety',
-            description: 'It is our mission to build a fully-transparent, brand-safe ecosystem that benefits advertisers, publishers, and consumers',
-            img: service4
-        },
+        
     ]
   return (
-    <div className='mb-28 mt-10 px-16 ' id="services">
+    <div className='mb-28  lg:px-32 py-16 bg-[#efefef]' id="services">
     <div className='text-center py-5'>
-    <h3 className='text-primary text-4xl uppercase'>Our Services</h3>
-        <h2 className='text-xl py-5'>Here’s What You’ll Get</h2>
+    <h3 className=' text-4xl '>Start Your Own Pay Per Call Line</h3>
+        <h2 className='text-xl py-5 uppercase'>Or Create one for any Idea</h2>
     </div>
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:ml-16'>
 {
     services.map(service=><Service key={service._id} service={service}></Service>)
 }

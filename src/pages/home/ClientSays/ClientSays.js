@@ -8,7 +8,7 @@ const ClientSays = () => {
         <div>
             <div>
                 <div className='my-32 '>
-                    {/* <div  class="divider"></div> */}
+                   
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 px-12'>
                     <div className='lg:flex md:flex'>
                     <div className=' p-5  rounded-lg'>
@@ -27,7 +27,7 @@ const ClientSays = () => {
                         <div className='pl-5'>
                             <p className='text-sm text-primary mb-5'>TESTIMONIALS CLIENT</p>
                             <div className='flex'>
-                            {/* <i class="fa-solid fa-circle text-8xl text-[#FFD124] -top-[-5px] relative"></i> */}
+                           
                             <p className='text-4xl text-primary mb-5 font-semibold '> We have <span className='text-[#4FA1F6] italic'> more than 1K +</span> Corporation until individuals client & give they best feedback for us
                             </p>
                             </div>

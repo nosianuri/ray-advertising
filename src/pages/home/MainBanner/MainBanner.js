@@ -1,9 +1,8 @@
 import React from 'react';
 import './MainBanner.css';
-import { Facts } from '../../../shared/Facts/Facts';
 import buyer from '../../../assets/design-thinking-collaboration.webp';
-import Typed from 'react-typed';
-import { BsMouse } from "react-icons/bs";
+
+
 
 const MainBanner = () => {
   return (
@@ -16,13 +15,13 @@ const MainBanner = () => {
           <div class="mx-auto max-w-[1240px] text-white pl-5">
             <h1 class="lg:text-4xl md:text-xl text-lg font-bold">THE SMART PATH FOR BRAND SUCCESS</h1>
             <p class="py-6 lg:text-3xl md:text-2xl text-lg">We work on
-              <Typed
+              {/* <Typed
                 className='pl-3'
                 strings={['Media Buying', 'Advertisement', 'Publisher', 'Marketing']}
                 typeSpeed={100}
                 loop={true}
                 backSpeed={120}
-              />
+              /> */}
             </p>
             
           </div>

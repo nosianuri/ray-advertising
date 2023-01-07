@@ -10,7 +10,7 @@ export const Facts = () => {
             const { startNumber, endNumber, unit, title } = item;
             return (
               <div className='w-[28%] mt-5' key={index}>
-                <h2 className=' text-secondary text-4xl font-bold'>
+                <h2 className=' text-[#4FA1F6] text-4xl font-bold'>
                   <CountUp
                   className=''
                     start={startNumber}
@@ -20,7 +20,7 @@ export const Facts = () => {
                   />
                   {unit} <span className='text-md text-[#FFD124]'>+</span>
                 </h2>
-                <div className='text-heading mb-3'>{title}
+                <div className='text-heading text-primary mb-3'>{title}
                 </div>
                 
               </div>

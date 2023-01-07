@@ -1,19 +1,29 @@
 export const questions = [
-    {
-      id: 1,
-      title: "LEAD GENERATION?",
-      answer: "Leads are'nt just contact details on a spreadsheet  they're people and we know what it takes to attract users. We've helped some of the biggest lead-gen experts in the world grow audiences in diverse global markets.",
-    },
-    {
-      id: 2,
-      title: "SEARCH ARBITRAGE?",
-      answer:
-        "We are one of the top search arbitrage players, utilizing the following traffic sources: Social, Native, and Display.",
-    },
-    {
-      id: 3,
-      title: "BRAND SAFETY?",
-      answer:
-        "We are experts in various markets and verticals. The common denominator – we understand how important your brand is. As your trusted partner, we will treat it with the same respect you do – wielding it as a tool (not a weapon)",
-    },
-  ];
+  {
+    id: 1,
+    title: "How we became best among others?",
+    answer: "With cutting-edge technology, behavioural data-driven intelligence, competitive services, and a talented team, Ray Advertising LLC aims to be the final destination for our advertisers and affiliate partners.",
+    open: true
+  },
+  {
+    id: 2,
+    title: "What are the benefits you will get as as advertiser?",
+    answer:
+      " Our trained support team will work with you to help distribute your offers, monitor traffic and transfers, and choose the best path that gets you the right buyer.",
+      open: false
+  },
+  {
+    id: 3,
+    title: "What are the benefits you will get as a publisher?",
+    answer:
+      "As a publisher with Ray, you get access to thousands of quality offers to help scale your business",
+      open: false
+  },
+  {
+    id: 4,
+    title: "Do you have any internal media buying team?",
+    answer:
+      "yes we do have highly trained professional internal media buying team who will help to drive traffics.",
+      open: false
+  },
+];
