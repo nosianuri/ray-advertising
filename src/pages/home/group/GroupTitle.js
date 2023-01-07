@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../../../shared/variants';
+
 
 const GroupTitle = () => {
   useEffect(() => {
