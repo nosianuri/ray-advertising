@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 import Navbar from '../../shared/Navbar/Navbar';
 import Group from '../home/group/Group';
 import GroupTitle from '../home/group/GroupTitle';
@@ -9,14 +9,12 @@ import Career from './Career';
 
 const About = () => {
 
-  useEffect(() => {
-    document.title = "About Us | Ray Advertising LLC";
-  }, []);
-
-  
-
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | Ray Advertising LLC</title>
+      </Helmet>
       <Navbar />
       <Abanner />
       <Career />

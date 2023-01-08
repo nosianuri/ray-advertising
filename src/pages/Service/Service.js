@@ -9,6 +9,22 @@ import Group from '../home/group/Group';
 import Navbar from '../../shared/Navbar/Navbar';
 import Footer from '../Shared/Footer';
 import AnimatedLetters from '../../shared/AnimatedLetters/AnimatedLetters';
+import { Helmet } from 'react-helmet';
+
+export const structuredDataSingle = () => {
+    let data = {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network",
+        "url": "https://www.rayadvertising.com/service",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    return JSON.stringify(data);
+}
 
 const Service = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,30 +32,17 @@ const Service = () => {
         setLetterClass('text-animate-hover')
     }, 3000);
 
-
-
-    useEffect(() => {
-        document.title = "Our Services | Ray Advertising LLC";
-    }, []);
-
-    const articleStructuredData =
-    {
-        "@context": "https://schema.org/",
-        "@type": "WebSite",
-        "name": "Our Services | Ray Advertising LLC",
-        "url": "https://www.rayadvertising.com/service",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
-            "query-input": "required name=search_term_string"
-        }
-    };
-
     return (
         <div>
-            <script type="application/ld+json">
-                {JSON.stringify(articleStructuredData)}
-            </script>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Our Services | Ray Advertising LLC</title>
+                <script type="application/ld+json">
+                    {`${structuredDataSingle()}`}
+                </script>
+
+            </Helmet>
+
             <Navbar />
             <div class="hero !bg-no-repeat !bg-cover" style={{
                 background: `url(${banner})`

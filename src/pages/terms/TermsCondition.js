@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 import Navbar from '../../shared/Navbar/Navbar'
 import Group from '../home/group/Group'
 import GroupTitle from '../home/group/GroupTitle'
@@ -6,11 +7,13 @@ import Footer from '../Shared/Footer';
 import './TermsCondition.css';
 
 const TermsCondition = () => {
-    useEffect(() => {
-        document.title = "Terms & Condition | Ray Advertising LLC";
-    }, []);
+
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Terms & Condition | Ray Advertising LLC</title>
+            </Helmet>
             <Navbar />
             <div className='lg:pt-36 pt-28 pb-10 lg:px-16 px-5'>
                 <div className='mt-5 terms'>

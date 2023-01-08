@@ -12,32 +12,35 @@ import Advertiser from './traffic/Advertiser';
 import Featured from './traffic/Featured';
 import Navbar from '../../shared/Navbar/Navbar';
 import Footer from '../Shared/Footer';
+import { Helmet } from 'react-helmet';
 
-
-
-const Home = () => {
-    useEffect(() => {
-        document.title = "Rapidly Growing #1 Network in the USA | Ray Advertising LLC";
-    }, []);
-
-    const articleStructuredData =
-    {
+export const structuredDataSingle = () => {
+    let data = {
         "@context": "https://schema.org/",
         "@type": "WebSite",
-        "name": "Contact-Us | Ray Advertising LLC ",
+        "name": "Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network",
         "url": "https://www.rayadvertising.com",
         "potentialAction": {
             "@type": "SearchAction",
             "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
             "query-input": "required name=search_term_string"
         }
-    };
+    }
+    return JSON.stringify(data);
+}
+
+const Home = () => {
 
     return (
         <div>
-            <script type="application/ld+json">
-                {JSON.stringify(articleStructuredData)}
-            </script>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network. | Ray Advertising LLC</title>
+                <script type="application/ld+json">
+                    {`${structuredDataSingle()}`}
+                </script>
+
+            </Helmet>
             <Navbar />
             <BannerBody />
             <CoreFeature />
