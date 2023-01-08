@@ -16,12 +16,28 @@ import Footer from '../Shared/Footer';
 
 
 const Home = () => {
-useEffect(() => {
-    document.title = "Rapidly Growing #1 Network in the USA | Ray Advertising LLC";
-}, []);
+    useEffect(() => {
+        document.title = "Rapidly Growing #1 Network in the USA | Ray Advertising LLC";
+    }, []);
+
+    const articleStructuredData =
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Contact-Us | Ray Advertising LLC ",
+        "url": "https://www.rayadvertising.com",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
+            "query-input": "required name=search_term_string"
+        }
+    };
 
     return (
         <div>
+            <script type="application/ld+json">
+                {JSON.stringify(articleStructuredData)}
+            </script>
             <Navbar />
             <BannerBody />
             <CoreFeature />
@@ -35,7 +51,6 @@ useEffect(() => {
             <GroupTitle />
             <Group />
             <Footer />
-            
         </div>
     )
 }
