@@ -16,7 +16,7 @@ const CoreFeature = () => {
     }, 3000)
 
   return (
-    <div>
+    <div className='grid-bg bg-base-100 anim'>
       <div className='inner'>
         <motion.div
           variants={staggerContainer(0.3, 1)}

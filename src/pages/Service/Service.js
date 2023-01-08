@@ -14,14 +14,32 @@ const Service = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     setTimeout(() => {
         setLetterClass('text-animate-hover')
-    }, 3000)
+    }, 3000);
+
+
 
     useEffect(() => {
         document.title = "Our Services | Ray Advertising LLC";
-      }, []);
+    }, []);
+
+    const articleStructuredData =
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Our Services | Ray Advertising LLC",
+        "url": "https://www.rayadvertising.com/service",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
+            "query-input": "required name=search_term_string"
+        }
+    };
 
     return (
         <div>
+            <script type="application/ld+json">
+                {JSON.stringify(articleStructuredData)}
+            </script>
             <Navbar />
             <div class="hero !bg-no-repeat !bg-cover" style={{
                 background: `url(${banner})`
