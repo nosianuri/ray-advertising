@@ -17,7 +17,7 @@ const TermsCondition = () => {
             <Navbar />
             <div className='lg:pt-36 pt-28 pb-10 lg:px-16 px-5'>
                 <div className='mt-5 terms'>
-                    <p className='text-center lg:mb-6 mb-5 !lg:text-2xl !text-xl font-bold'>Terms & Condition</p>
+                    <p className=' terms-title lg:mb-3 mb-3  '>Terms & Condition</p>
                     <p className='mb-3'>This Affiliate Program Operating Agreement (the “Agreement”) is made and entered into by and between Ray Advertising LLC (or “We”), and a person, (“You” or “Affiliate”/ “Publisher”) declaring the intention to cooperate with us an Affiliate.The terms and conditions contained in this Agreement apply to Your participation with the affiliate program of the agency <a className='text-[#165d8c] underline' href="http://contact@rayadvertising.com">rayadvertising.com</a>.</p>
 
                     <p className='mb-2'>Furthermore, each Offer may have additional terms and conditions on pages within the Affiliate Program and are incorporated as part of this Agreement.</p>

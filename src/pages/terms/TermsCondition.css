@@ -1,4 +1,7 @@
- 
+ .terms-title{
+   font-size: 40px;
+   font-weight: 900;
+ }
  
  .terms-article {
     display: block;
