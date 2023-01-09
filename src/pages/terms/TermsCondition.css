@@ -12,3 +12,11 @@
     margin-inline-end: 0px;
     padding-inline-start: 40px;
  }
+
+
+ @media screen and (max-width: 780px) {
+   .terms-title{
+      font-size: 25px;
+      
+    }
+ }
