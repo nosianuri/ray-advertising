@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import banner from "../../assets/imgpsh_fullsize_anim2.jpg";
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../../shared/variants';
@@ -11,20 +11,6 @@ import Footer from '../Shared/Footer';
 import AnimatedLetters from '../../shared/AnimatedLetters/AnimatedLetters';
 import { Helmet } from 'react-helmet';
 
-export const structuredDataSingle = () => {
-    let data = {
-        "@context": "https://schema.org/",
-        "@type": "WebSite",
-        "name": "Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network",
-        "url": "https://www.rayadvertising.com/service",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    return JSON.stringify(data);
-}
 
 const Service = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -37,10 +23,6 @@ const Service = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Our Services | Ray Advertising LLC</title>
-                <script type="application/ld+json">
-                    {`${structuredDataSingle()}`}
-                </script>
-
             </Helmet>
 
             <Navbar />

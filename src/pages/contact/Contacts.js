@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../../shared/Navbar/Navbar';
 import Group from '../home/group/Group';
@@ -8,15 +8,29 @@ import Banner from './Banner';
 import ContactBody from './ContactBody';
 export const structuredDataSingle = () => {
   let data = {
-    "@context": "https://schema.org/",
-    "@type": "WebSite",
-    "name": "Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network",
-    "url": "https://www.rayadvertising.com/contact",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
-      "query-input": "required name=search_term_string"
-    }
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Ray Advertising LLC",
+    "alternateName": "Ray Advertising LLC is a Rapidly Growing #1 PERFECT MARKETING WITH PERFECT PARTNER",
+    "url": "https://rayadvertising.com/",
+    "logo": "https://rayadvertising.com/static/media/raywhitelogo.899312d274de91eb166a.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "4356277657",
+      "contactType": "technical support",
+      "contactOption": ["TollFree","HearingImpairedSupported"],
+      "areaServed": "US",
+      "availableLanguage": "en"
+    },
+    "sameAs": [
+      "https://www.facebook.com/rayadvertisingllc",
+      "https://mobile.twitter.com/rayadvertising",
+      "https://www.instagram.com/rayadvertisingllc/",
+      "https://www.linkedin.com/company/rayadvertising",
+      "https://www.pinterest.com/rayadvertising/",
+      "https://www.tumblr.com/rayadvertisingllc",
+      "https://rayadvertising.com/"
+    ]
   }
   return JSON.stringify(data);
 }

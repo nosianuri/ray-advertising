@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import BannerBody from './BannerBody/BannerBody';
 import CoreFeature from './CoreFeature/CoreFeature';
 import Faqs from './Faq/Faqs';
@@ -16,16 +16,31 @@ import { Helmet } from 'react-helmet';
 
 export const structuredDataSingle = () => {
     let data = {
-        "@context": "https://schema.org/",
+        "@context": "http://schema.org",
         "@type": "WebSite",
-        "name": "Ray Advertising LLC is a Rapidly Growing #1 Performance Marketing Affiliate Network",
-        "url": "https://www.rayadvertising.com",
+        "name": "Ray Advertising LLC is a Rapidly Growing",
+        "url": "https://rayadvertising.com/",
         "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}https://rayadvertising.everflowclient.io/advertiser/signup",
-            "query-input": "required name=search_term_string"
-        }
-    }
+          "@type": "SearchAction",
+          "target": "https://rayadvertising.everflowclient.io/affiliate/signup{search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "hasPart" : [{
+              "@type" : "WebPage",
+              "name" : "ADVERTISERS",
+              "url" : "https://rayadvertising.everflowclient.io/advertiser/signup"
+          },
+          {
+              "@type" : "WebPage",
+              "name" : "Our Service ",
+              "url" : "https://rayadvertising.com/service"
+          },
+          {
+              "@type" : "WebPage",
+              "name" : "Contact Us",
+              "url" : "https://rayadvertising.com/contact"
+          }]
+      }
     return JSON.stringify(data);
 }
 

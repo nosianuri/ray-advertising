@@ -10,6 +10,9 @@ const Faqs = () => {
     useEffect(() => {
         AOS.init({ duration: 2000 });
     }, []);
+
+
+    
     return (
         <div>
             <div className='lg:relative w-full h-full lg:pb-[500px] pb-8'>
