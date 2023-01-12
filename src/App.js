@@ -7,7 +7,8 @@ import Home from './pages/home/Home';
 import NotFound from './pages/Shared/NotFound';
 import Service from './pages/Service/Service';
 import TermsCondition from './pages/terms/TermsCondition';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path='/terms-condition' element={<TermsCondition />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      
+      <ToastContainer />
     </div>
   );
 }

@@ -3,65 +3,136 @@ import img from '../../../assets/short.jpg';
 import Faq from '../../../components/faq/Faq';
 import './Faq.css';
 import AOS from 'aos';
+import { toast } from 'react-toastify';
+import { useForm } from 'react-hook-form';
 
 
 const Faqs = () => {
-    const form = useRef();
+    const { register, reset, formState: { errors }, handleSubmit } = useForm();
+
+
     useEffect(() => {
         AOS.init({ duration: 2000 });
     }, []);
 
+    const onSubmit = formData => {
 
-    
+        const data = {
+            name: formData.name,
+            email: formData.email,
+            subject: formData.number,
+            content: formData.message,
+        }
+        console.log(data);
+        fetch('https://email.rayadvertising.com/api/send-email', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data) {
+                    toast.success('succesfuly post data');
+                    reset();
+                }
+                else {
+                    toast.error('Something is wrong');
+                }
+
+            })
+    }
+
+
     return (
         <div>
             <div className='lg:relative w-full h-full lg:pb-[500px] pb-8'>
                 <img className='' src={img} alt="" />
                 <div className='lg:absolute lg:top-[200px] lg:w-full lg:h-full lg:left-0'>
-                <div className='lg:w-full lg:h-full'>
-                    <div className='grid grid-cols-1 lg:grid-cols-2 lg:mx-28 lg:gap-10 justify-center '>
-                        
-                        <div className="lg:pt-[170px]">
-                        <Faq />
-                        </div>
-                        <div className='mx-2'>                            
-                                <div class="box" ref={form}>
+                    <div className='lg:w-full lg:h-full'>
+                        <div className='grid grid-cols-1 lg:grid-cols-2 lg:mx-28 lg:gap-10 justify-center '>
+
+                            <div className="lg:pt-[170px]">
+                                <Faq />
+                            </div>
+                            <div className='mx-2'>
+                                <form class="box" onSubmit={handleSubmit(onSubmit)}>
                                     <div class="form">
-                                        <h2 className='text-3xl bg-[#45f3ff] !text-[#003144]'>Sign in</h2>
+                                        <h2 className='text-3xl bg-[#45f3ff] !text-[#003144] py-1'>Sign in</h2>
                                         <div class="inputBox">
                                             <input type="text"
-                                            id='name' name="name" required />
+
+                                                {...register("name", {
+                                                    required: {
+                                                        value: true,
+                                                        message: 'Name is required'
+                                                    },
+                                                    minLength: {
+                                                        value: 3,
+                                                        message: 'Must be 3 characters longer'
+                                                    }
+                                                })}
+                                                required />
+                                            
                                             <span>Your Name*</span>
                                             <i></i>
+
                                         </div>
                                         <div class="inputBox">
-                                            <input type="email"
-                                            id='email' name="email" required />
+                                            <input
+                                                type="email"
+
+                                                {...register("email", {
+                                                    required: {
+                                                        value: true,
+                                                        message: 'Email is required'
+                                                    },
+
+                                                })}
+                                                required />
                                             <span>Your Email*</span>
                                             <i></i>
+
                                         </div>
                                         <div class="inputBox">
                                             <input type="number"
-                                            id='number' name='number' required />
+
+                                                {...register("number", {
+                                                    required: {
+                                                        value: true,
+                                                        message: 'Number is required'
+                                                    },
+                                                    maxLength: {
+                                                        value: 11,
+                                                        message: 'Must be 11 characters longer'
+                                                    }
+                                                })}
+                                                required />
                                             <span>Your Number*</span>
                                             <i></i>
+
                                         </div>
                                         <div class="inputBox">
-                                            <input type="text" id='message' name="message"  required />
+                                            <input type="text"
+                                                {...register("message", {
+                                                    required: {
+                                                        value: true,
+                                                        message: 'Message is required'
+                                                    },
+
+                                                })}
+                                                required />
                                             <span>Enter your message</span>
                                             <i></i>
+
                                         </div>
-                                        {/* <div class="links">
-                                    <a href="#">Forget Password</a>
-                                    <a href="#">Signup</a>
-                                </div> */}
+                                        
                                         <input type="submit" value="SUBMIT MESSAGE" />
                                     </div>
-                                </div>
-                          
+                                </form>
+
+                            </div>
                         </div>
                     </div>
-</div>
                 </div>
 
             </div>
