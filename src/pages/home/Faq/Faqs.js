@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import img from '../../../assets/short.jpg';
 import Faq from '../../../components/faq/Faq';
 import './Faq.css';
@@ -20,7 +20,7 @@ const Faqs = () => {
         const data = {
             name: formData.name,
             email: formData.email,
-            subject: formData.number,
+            phone_number: formData.number,
             content: formData.message,
         }
         console.log(data);
@@ -102,8 +102,8 @@ const Faqs = () => {
                                                         message: 'Number is required'
                                                     },
                                                     maxLength: {
-                                                        value: 11,
-                                                        message: 'Must be 11 characters longer'
+                                                        value: 13,
+                                                        message: 'Must be 13 characters longer'
                                                     }
                                                 })}
                                                 required />
