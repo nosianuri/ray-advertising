@@ -51,7 +51,7 @@ const Faqs = () => {
                     <div className='lg:w-full lg:h-full'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 lg:mx-28 lg:gap-10 justify-center '>
 
-                            <div className="lg:pt-[170px]">
+                            <div className="lg:pt-[170px]  xl:pt-[250px]">
                                 <Faq />
                             </div>
                             <div className='mx-2'>
