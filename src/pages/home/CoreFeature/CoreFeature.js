@@ -38,14 +38,15 @@ const CoreFeature = () => {
               <h1 className='lg:text-4xl text-xl text-[#12232E]'>
                 <AnimatedLetters
                   letterClass={letterClass}
-                  strArray={['O', 'U', 'R', ' ', 'C', 'O', 'R', 'E', ' ', 'F', 'E', 'A', 'T', 'U', 'R', 'E', 'S']}
+                  strArray={['O', 'U', 'R', ' ', 'C', 'O', 'R', 'E', ' ', 'A', 'C', 'T', 'I', 'V', 'I', 'T', 'E', 'S']}
                   idx={15}
                 />
               </h1>
             </motion.h1>
 
             
-              <p className='lg:text-md lg:px-32 mt-5 text-center text-[#12232E]'>Our core specialties are Pay Per Call, affiliate marketing, and lead generation. Pay Per Call which consistently named us the #1, ensures the best consistency in volume and quality for advertisers across more than 250+ verticals</p>
+              <p className='lg:text-md lg:px-32 mt-5 text-center text-[#12232E]'>Ray Advertising stands out because of its ability to assist Advertisers in more than 250+ verticals in reaching their intended audiences with effective digital advertising campaigns through its active Publishers and in-house Media Buying Team when compared to other Pay Per Call, Lead Generation, and Affiliate Network marketing companies. In addition, our Affiliate marketing programs have increased publishers' return on investment (ROI) and return on ad spend (ROAS) across the media buying and planning process, which has led to widespread satisfaction. Hence, we serve a broad variety of sectors, including but not limited to Finance & Banking, Legal, eCommerce, Health Insurance, and Home Services, to ensure our reputation as the best pay-per-call, lead-generation, affiliate network worldwide.
+</p>
            
           </div>
         </motion.div>
