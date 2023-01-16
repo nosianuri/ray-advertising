@@ -22,9 +22,9 @@ const CoreFeature = () => {
           variants={staggerContainer(0.3, 1)}
           initial='hidden'
           whileInView={'show'}
-          className='text-center flex flex-col items-center'
+          className=' flex flex-col items-center'
         >
-          <div className='text-center lg:px-32 m-10'>
+          <div className='lg:px-32 mx-5 lg:mx-10 my-10'>
             <motion.div
               variants={fadeIn('down', 'tween', 0.2, 1.1)}
               className=' text-[18px] lg:text-[28px] font-primary lg:font-medium mb-1'
@@ -35,7 +35,7 @@ const CoreFeature = () => {
               variants={fadeIn('down', 'tween', 0.2, 1.1)}
               className='h1 mb-5 '
             >
-              <h1 className='lg:text-4xl text-xl text-[#12232E]'>
+              <h1 className='lg:text-4xl text-center text-xl text-[#12232E] font-semibold'>
                 <AnimatedLetters
                   letterClass={letterClass}
                   strArray={['O', 'U', 'R', ' ', 'C', 'O', 'R', 'E', ' ', 'A', 'C', 'T', 'I', 'V', 'I', 'T', 'E', 'S']}
@@ -45,7 +45,7 @@ const CoreFeature = () => {
             </motion.h1>
 
 
-            <p className='lg:text-md lg:px-10 mt-5 text-center text-[#12232E]'>Ray Advertising stands out because of its ability to assist Advertisers in more than 250+ verticals in reaching their intended audiences with effective digital advertising campaigns through its active Publishers and in-house Media Buying Team when compared to other Pay Per Call, Lead Generation, and Affiliate Network marketing companies. In addition, our Affiliate marketing programs have increased publishers' return on investment (ROI) and return on ad spend (ROAS) across the media buying and planning process, which has led to widespread satisfaction. Hence, we serve a broad variety of sectors, including but not limited to Finance & Banking, Legal, eCommerce, Health Insurance, and Home Services, to ensure our reputation as the best pay-per-call, lead-generation, affiliate network worldwide.
+            <p className='lg:text-md lg:px-10 mt-5 lg:text-center text-[#12232E]'>Ray Advertising stands out because of its ability to assist Advertisers in more than 250+ verticals in reaching their intended audiences with effective digital advertising campaigns through its active Publishers and in-house Media Buying Team when compared to other Pay Per Call, Lead Generation, and Affiliate Network marketing companies. In addition, our Affiliate marketing programs have increased publishers' return on investment (ROI) and return on ad spend (ROAS) across the media buying and planning process, which has led to widespread satisfaction. Hence, we serve a broad variety of sectors, including but not limited to Finance & Banking, Legal, eCommerce, Health Insurance, and Home Services, to ensure our reputation as the best pay-per-call, lead-generation, affiliate network worldwide.
             </p>
 
           </div>
