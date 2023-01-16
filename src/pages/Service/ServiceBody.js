@@ -48,7 +48,7 @@ const ServiceBody = () => {
           >
       <div className='text-center shadow-lg	bg-base-100 lg:px-5  core-box py-10 px-5' ref={addToRefs}>
       <h3 className='border-2 border-[#032738] lg:mx-5 w-full text-[#032738] font-bold'>PAY PER CALL</h3>
-        <h1 className='lg:text-3xl mt-4 font-[900] text-[#12232E]'>INBOUND PHONE CALLS THAT BRING INTERESTED CUSTOMERS DIRECTLY TO YOU</h1>
+        <h1 className='lg:text-3xl mt-4 font-[900] text-[#12232E] uppercase'>Why Should Advertisers and Publishers Use Pay Per Call Service? </h1>
         <p className='mt-5 !text-[#12232E] lg:text-[16px] leading-normal text-sm mb-8'>Ray Advertising offers Pay Per Call Service which is a strategy of advertising that enables publishers to place ads on a digital ad network and get paid by advertisers only for the calls that those ads bring in, according to a predetermined cost per call and performance metric. This kind of marketing will become more popular in 2023 since it lets companies monitor the results of their efforts and tailor their messages to certain demographics. We provide companies with Pay Per Call solutions, allowing them to create individualized marketing programs. Additionally, using our recommended tracking system, such as Ringba, businesses can also track the performance of their campaigns in real-time, allowing them to make adjustments as needed. We strongly recommend that businesses who wish to target a certain demographic and measure the success of their advertising efforts primarily via phone calls may benefit from this kind of promotion.
 </p>
       </div>
