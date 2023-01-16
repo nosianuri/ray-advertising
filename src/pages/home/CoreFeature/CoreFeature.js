@@ -84,9 +84,9 @@ const CoreFeature = () => {
               <div>
                 <img className='mx-auto mb-[-50px]' src={img2} alt="" />
               </div>
-              <div className='text-center bg-white px-10 pt-20 text-[#12232E] core-box'>
+              <div className='text-center bg-white px-8 pt-20 text-[#12232E] core-box'>
                 <h1 className='text-xl font-bold'>LEAD GENERATION</h1>
-                <p className='py-3'>Ray Advertising offers Lead generation Service which is a strategy that can assist businesses in generating demand and interest within the target markets and potential customers.</p>
+                <p className='py-3'>Ray Advertising offers Lead generation Service which is a strategy that can assist businesses in generating demand and interest within the target markets and potential customers. In marketing, a lead is defined as a person or business that has connected with a brand in some manner and shows promise as a prospective customer.</p>
 
               </div>
               <div className=' core-box bg-white text-center py-2'>
