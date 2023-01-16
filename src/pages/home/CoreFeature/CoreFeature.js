@@ -109,7 +109,7 @@ const CoreFeature = () => {
               <div className='text-center bg-white px-10 pt-20 text-[#12232E] core-box'>
                 <h1 className='text-xl font-bold'>AFFILIATE NETWORK</h1>
 
-                <p className='py-3'>Affiliate marketing is a marketing arrangement in which affiliates receive a commission for each visit, signup or sale they generate for a merchant. This arrangement allows businesses to outsource part of the sales process.</p>
+                <p className='py-3'>Affiliating is a form of online marketing in which an affiliate earns a commission for referring customers to a merchant's website. Similar to Ray Advertising, an affiliate network mediates between advertisers and affiliates so that both can profit from the relationship.</p>
 
               </div>
               <div className='core-box bg-white text-center py-2'>
