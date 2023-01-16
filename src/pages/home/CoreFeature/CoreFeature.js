@@ -11,9 +11,9 @@ import './CoreFeatures.css';
 
 const CoreFeature = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-    setTimeout(() => {
-        setLetterClass('text-animate-hover')
-    }, 3000)
+  setTimeout(() => {
+    setLetterClass('text-animate-hover')
+  }, 3000)
 
   return (
     <div className='grid-bg bg-base-100 anim'>
@@ -44,14 +44,14 @@ const CoreFeature = () => {
               </h1>
             </motion.h1>
 
-            
-              <p className='lg:text-md lg:px-32 mt-5 text-center text-[#12232E]'>Ray Advertising stands out because of its ability to assist Advertisers in more than 250+ verticals in reaching their intended audiences with effective digital advertising campaigns through its active Publishers and in-house Media Buying Team when compared to other Pay Per Call, Lead Generation, and Affiliate Network marketing companies. In addition, our Affiliate marketing programs have increased publishers' return on investment (ROI) and return on ad spend (ROAS) across the media buying and planning process, which has led to widespread satisfaction. Hence, we serve a broad variety of sectors, including but not limited to Finance & Banking, Legal, eCommerce, Health Insurance, and Home Services, to ensure our reputation as the best pay-per-call, lead-generation, affiliate network worldwide.
-</p>
-           
+
+            <p className='lg:text-md lg:px-10 mt-5 text-center text-[#12232E]'>Ray Advertising stands out because of its ability to assist Advertisers in more than 250+ verticals in reaching their intended audiences with effective digital advertising campaigns through its active Publishers and in-house Media Buying Team when compared to other Pay Per Call, Lead Generation, and Affiliate Network marketing companies. In addition, our Affiliate marketing programs have increased publishers' return on investment (ROI) and return on ad spend (ROAS) across the media buying and planning process, which has led to widespread satisfaction. Hence, we serve a broad variety of sectors, including but not limited to Finance & Banking, Legal, eCommerce, Health Insurance, and Home Services, to ensure our reputation as the best pay-per-call, lead-generation, affiliate network worldwide.
+            </p>
+
           </div>
         </motion.div>
 
-       
+
         <div className='grid grid-cols-1 lg:grid-cols-3 lg:ml-32 lg:mr-28  overflow-hidden gap-10 py-8'>
           <div
             className='relative '
@@ -63,9 +63,9 @@ const CoreFeature = () => {
               <div>
                 <img className='mx-auto mb-[-50px]' src={img1} alt="" />
               </div>
-              <div className='text-center text-[#12232E] bg-white px-10 pt-20 core-box'>
+              <div className='text-center text-[#12232E] bg-white px-8 pt-20 core-box'>
                 <h1 className='text-xl font-bold'>PAY PER CALL</h1>
-                <p className='py-3'>Pay-per-call is a type of performance marketing where an advertiser pays publishers (also known as affiliates or distribution partners) for quality calls generated on the advertiser’s behalf.</p>
+                <p className='py-3'>Ray Advertising offers Pay Per Call Service which is a strategy of advertising that enables publishers to place ads on a digital ad network and get paid by advertisers only for the calls that those ads bring in, according to a predetermined cost per call and performance metric.</p>
 
               </div>
               <div className='core-box  bg-white text-center py-2'>
