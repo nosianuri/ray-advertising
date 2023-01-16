@@ -86,7 +86,7 @@ const CoreFeature = () => {
               </div>
               <div className='text-center bg-white px-10 pt-20 text-[#12232E] core-box'>
                 <h1 className='text-xl font-bold'>LEAD GENERATION</h1>
-                <p className='py-3'>Lead generation is the initiation of consumer interest or enquiry into products or services of a business. A lead is the contact information. In some cases, demographic information of a customer who is interested in a specific product or service.</p>
+                <p className='py-3'>Ray Advertising offers Lead generation Service which is a strategy that can assist businesses in generating demand and interest within the target markets and potential customers.</p>
 
               </div>
               <div className=' core-box bg-white text-center py-2'>

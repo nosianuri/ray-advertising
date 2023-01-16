@@ -62,8 +62,8 @@ const ServiceBody = () => {
           >
       <div className='text-center shadow-lg bg-base-100 core-box py-10 px-5' ref={addToRefs}>
       <h3 className='border-2 border-[#032738] lg:mx-5 w-full text-[#032738] font-bold'>LEAD GENERATION</h3>
-        <h1 className='lg:text-3xl mt-4 font-[900] text-[#12232E]'>DISCOVER HOW EASY IT IS TO FIND NEW CUSTOMERS THROUGH OUR PROPRIETARY WEBSITES.</h1>
-        <p className='mt-5 !text-[#12232E] lg:text-[16px] leading-normal text-sm mb-8'>A lead is any individual who demonstrates intrigued in a company’s item or benefit in a few way, shape, or form. Leads ordinarily listen from a commerce or organization after opening communication by submitting individual data for an offer, trial, or membership ,rather than getting a arbitrary cold call from somebody who obtained their contact data.</p>
+        <h1 className='lg:text-3xl mt-4 font-[900] text-[#12232E] uppercase'>Why Should Advertisers and Publishers Use LEAD GENERATION?</h1>
+        <p className='mt-5 !text-[#12232E] lg:text-[16px] leading-normal text-sm mb-8'>Ray Advertising offers Lead generation Service which is a strategy that can assist businesses in generating demand and interest within the target markets and potential customers. In marketing, a lead is defined as a person or business that has connected with a brand in some manner and shows promise as a prospective customer. Creating new leads is a crucial step in every company's sales process. Ray Advertising’s lead generation services facilitate the discovery of new customers, the cultivation of existing ones, and the generation of sales for any business worldwide. Our skillful in-house media buying team and publishers around the globe generate leads that are more likely to become customers by adopting strategies like content marketing, search engine optimization, social media marketing, and email marketing. Leads can be generated in a variety of ways, but one of the most efficient is through digital advertising on social.</p>
       </div>
       </motion.div>
 
