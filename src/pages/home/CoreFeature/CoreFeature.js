@@ -22,7 +22,7 @@ const CoreFeature = () => {
           variants={staggerContainer(0.3, 1)}
           initial='hidden'
           whileInView={'show'}
-          className=' flex flex-col items-center'
+          className=' flex flex-col lg:items-center text-justify	'
         >
           <div className='lg:px-32 mx-5 lg:mx-10 my-10'>
             <motion.div
