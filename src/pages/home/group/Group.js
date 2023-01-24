@@ -18,7 +18,7 @@ const Group = () => {
                 >
                     <div className='bg-[#003144] text-center pt-16 lg:px-20 px-2' data-aos="flip-right">
                         <h1 className='bg-white lg:mx-0 mx-10 lg:text-3xl text-xl text-[#12232E] font-[800]'>PUBLISHERS</h1>
-                        <p className='text-sm text-white mt-3 mb-5'>Promote high-converting campaigns from leading US advertisers seeking your media-buying, content marketing, social media, and e-mail marketing expertise.</p>
+                        <p className='text-sm text-white mt-3 mb-5'>Publishers of Ray Advertising have the flexibility to choose the campaigns that align with their audience and niche, and they can use different strategies such as pay-per-call, content marketing, social media marketing, email marketing, paid advertising, and more to generate sales or leads.</p>
                         <button className='mb-10  bg-[#45f3ff]'
                             padding="10px 15px"
                             size="lg"
@@ -42,7 +42,7 @@ const Group = () => {
                 >
                     <div className='bg-[#003144] text-center pt-16 lg:px-20 px-2' data-aos="flip-right">
                         <h1 className='bg-white lg:mx-0 mx-10 lg:text-3xl text-xl font-[800] text-[#12232E]'>ADVERTISERS</h1>
-                        <p className='text-sm text-white mt-3 mb-5'>Our team of media-buyers and content marketing experts. We are here to deliver you highly engaged customers via display, native, or email marketing channels.</p>
+                        <p className='text-sm text-white mt-3 mb-5'>Advertisers at Ray Advertising benefit from affiliate marketing by gaining access to a large number of publishers who can help them reach new customers and increase sales. They only pay for actual results, such as a sale or a lead, and they can track the performance of their campaigns and offers in real-time via our tracking dashboard.</p>
                         <button className='mb-10'
                             padding="10px 15px"
                             size="lg"

@@ -19,7 +19,7 @@ const Projects = () => {
                     <div className='bg-[#003144] p-10 text-white' data-aos="flip-right">
                         <div>
                             <h2 className='text-xl font-bold'>EXCLUSIVE INVENTORY</h2>
-                            <p className='mt-3'>More than a network of affiliates, Ray's team includes designers, developers, content writers, and product managers.</p>
+                            <p className='mt-3'>Ray Advertising offers products and services that are only available to a select group of affiliates, rather than being available to all members of the network. These offers have higher payouts or better terms than non-exclusive offers, and they are in high demand due to their exclusivity. Exclusive inventory is beneficial for affiliates, allowing top-performing affiliates to earn more money.</p>
                         </div>
 
                     </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                     <div className='bg-[#003144] p-10 text-white' data-aos="flip-right">
                         <div>
                             <h2 className='text-xl font-bold'>FIRST-PARTY DATA ADVANTAGE</h2>
-                            <p className='mt-3'>Ray leverages CCPA-compliant first-party data from millions of calls, clicks, leads, app installs, and PII to create targeting profiles that accelerate the identification and conversion of your audience into customers.</p>
+                            <p className='mt-3'>Affiliates can gain access to first-party data about their customers when they run exclusive offers through Ray Advertising’s affiliate network. This data can include information such as demographics, purchasing history, browsing behavior, etc. Our Affiliates can optimize campaigns, improve targeting, and increase the effectiveness of offers based on the valuable insights of First-Party Data.</p>
                         </div>
 
                     </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                     >
                         <div>
                             <h2 className='text-xl font-bold'>FRAUD PREVENTION</h2>
-                            <p className='mt-3'>Over the years, we have formed the most accurate principles and methods of fraud tracking and instant response.</p>
+                            <p className='mt-3'>Fraud prevention is an important aspect of Ray Advertising, as it can help to protect our network and our affiliates from financial losses and damage to their reputations. To prevent fraud, we implement strict guidelines for affiliate approval and regularly monitor affiliate activity. Also, we use fraud detection software and conduct regular audits to identify any potential fraud and take appropriate action.</p>
                         </div>
                     </motion.div>
                 </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                     >
                         <div>
                             <h2 className='text-xl font-bold'>24/7 SUPPORT</h2>
-                            <p className='mt-3'>We care about our client’s needs. That’s why our experts are available 24/7 to assist you.</p>
+                            <p className='mt-3'>Ray Advertising provides 24/7 support to ensure that their affiliates have access to assistance whenever they need it. Also, our affiliates may have questions or need assistance with setting up campaigns or optimizing their performance, and our 24/7 support can provide guidance and advice to help them succeed. Ray Advertising focuses on ensuring smooth operation, providing guidance and advice, building trust and loyalty, being available for different time zones, and being responsive to urgent issues.</p>
                         </div>
                     </motion.div>
                 </div>
