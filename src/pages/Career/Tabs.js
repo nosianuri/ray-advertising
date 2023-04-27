@@ -6,7 +6,7 @@ const Tabs = () => {
         {
             id: 1,
             name: 'All views',
-            title: 'Backend Developer',
+            title: 'Back-End Developer',
             job_type: 'Remote',
             job_time: 'Full time',
             job_link: 'https://forms.gle/VemiEsGcaRaw7v3p8',
@@ -15,7 +15,7 @@ const Tabs = () => {
         {
             id: 2,
             name: 'Development',
-            title: 'Backend Developer',
+            title: 'Back-End Developer',
             job_type: 'Remote',
             job_time: 'Full time',
             job_link: 'https://forms.gle/VemiEsGcaRaw7v3p8',
