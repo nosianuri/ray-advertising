@@ -10,6 +10,7 @@ const Tabs = () => {
             job_type: 'Remote',
             job_time: 'Full time',
             job_link: 'https://forms.gle/VemiEsGcaRaw7v3p8',
+            job_desc_link: 'https://docs.google.com/document/d/1Y028gSFMlvgL2ZjZq4lBlI3unvUQkkRAPCiXfF_odlw/mobilebasic',
             content: 'We are looking for a mid-level backend developer to join our team.',
         },
         {
@@ -19,6 +20,7 @@ const Tabs = () => {
             job_type: 'Remote',
             job_time: 'Full time',
             job_link: 'https://forms.gle/VemiEsGcaRaw7v3p8',
+            job_desc_link: 'https://docs.google.com/document/d/1Y028gSFMlvgL2ZjZq4lBlI3unvUQkkRAPCiXfF_odlw/mobilebasic',
             content: 'We are looking for a mid-level backend developer to join our team.',
         },
         // {
@@ -52,7 +54,10 @@ const Tabs = () => {
                             <div className='sm:flex justify-between'>
                                 <div>
                                     <h1 className='text-[22px] font-bold'>{tab.title}</h1>
-                                    <h4>{tab.content}</h4>
+                                    <h4 className='mb-1'>{tab.content}</h4>
+                                    <a href={tab.job_desc_link} target="_blank" >
+                                    <h4 className='font-bold hover:underline hover:text-[#3acbd5]'>Job Description & Requirements <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                                    </a>
                                     <div className='flex gap-5'>
                                         <div className='border w-[150px] text-center border-[#363535] rounded-full px-4 py-1 mt-5 flex gap-5'> <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -65,8 +70,8 @@ const Tabs = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <a href={tab.job_link}>
-                                <div className='text-[20px] font-bold flex sm:mt-0 mt-5'><span>Apply</span> <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <a href={tab.job_link} target="_blank">
+                                <div className='text-[20px] font-bold flex sm:mt-0 mt-5 hover:text-[#3acbd5]'><span>Apply</span> <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                 </svg></span>
                                 </div>
