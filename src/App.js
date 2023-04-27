@@ -9,6 +9,7 @@ import Service from './pages/Service/Service';
 import TermsCondition from './pages/terms/TermsCondition';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Carrer from './pages/Career/Carrer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/career' element={<Carrer />} />
         <Route path='/privacy-policy' element={<Privacy />} />
         
         <Route path='/terms-condition' element={<TermsCondition />} />

@@ -38,7 +38,7 @@ const ContactBody = () => {
         <div>
             <div className='mx-auto relative '>
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:ml-32 lg:mr-28  overflow-hidden gap-10 pt-10 '>
-                    <div className='pt-10 '>
+                    <div className='pt-10 ' id='faqs'>
                         <motion.div
                             variants={fadeIn('right', 'tween', 0.2, 1.8)}
                             initial='hidden'

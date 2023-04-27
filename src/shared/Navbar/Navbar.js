@@ -25,7 +25,7 @@ class Navbar extends Component {
                 <li className='uppercase ml-2'><a href="/about">About Us</a></li>
                 <li className='uppercase ml-2'><a href="/contact">Contact Us</a></li>
                 <li className='uppercase ml-2'><a href="/service">Our Service</a></li>
-                <li className='uppercase ml-2'><a href="/privacy-policy">Privacy Policy</a></li>
+                <li className='uppercase ml-2'><a href="/career">Career</a></li>
                 <li className='uppercase ml-2'><a>
                   <div class="dropdown dropdown-hover">
                     <label tabindex="0" class=" m-1">Media</label>

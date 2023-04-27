@@ -47,11 +47,11 @@ const Footer = () => {
         </div>
         <div>
           <span class="lg:text-xl text-lg text-bold  ">MEDIA</span>
-          <a href='/#' class="link link-hover hover:text-[#45f3ff] lg:text-md hover:no-underline">FAQ</a>
+          <a href='/#faqs' class="link link-hover hover:text-[#45f3ff] lg:text-md hover:no-underline">FAQ</a>
           <div className='lg:w-[200px] w-[50px] h-[1px] bg-gray-700'></div>
           <a href='/#' class="link link-hover hover:text-[#45f3ff] lg:text-md hover:no-underline">Blog</a>
           <div className='lg:w-[200px] w-[50px] h-[1px] bg-gray-700'></div>
-          <a href='/#' class="link link-hover hover:text-[#45f3ff] lg:text-md hover:no-underline">Event</a>
+          <a href='/career' class="link link-hover hover:text-[#45f3ff] lg:text-md hover:no-underline">Career</a>
           
         </div>
         <div>
