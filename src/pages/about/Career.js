@@ -6,7 +6,7 @@ import { staggerContainer } from '../../shared/variants';
 
 const Career = () => {
   return (
-    <div style={{ background: `url(${career})` }}>
+    <div>
       <div className='lg:mt-16'>
         <motion.div
           variants={staggerContainer(0.3, 1)}

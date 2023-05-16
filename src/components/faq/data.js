@@ -7,7 +7,7 @@ export const questions = [
   },
   {
     id: 2,
-    title: "What are the benefits you will get as as advertiser?",
+    title: "What are the benefits you will get as a advertiser?",
     answer:
       " Our trained support team will work with you to help distribute your offers, monitor traffic and transfers, and choose the best path that gets you the right buyer.",
       open: false
