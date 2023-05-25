@@ -36,7 +36,7 @@ const Career = () => {
               </div>
             </div>
             <h1 className='text-center text-2xl font-bold mt-3 text-[#12232E]'>OUR MISSION</h1>
-            <p className='mt-2 px-5 text-[#12232E]'>In terms of the vision of Ray Advertising, our company dreams to rank in the top tier of the Pay-Per-Call sector while also maximizing our profits and cash flow, both of which will ensure long-term growth initiatives for our affiliate publishers and advertisers.</p>
+            <p className='mt-2 px-5 text-[#12232E]'>Our company's mission is to build a reputation as one of the most important hubs for pay-per-call networks in the world, and we want to accomplish this by utilizing our portfolio of strategies to differentiate our offerings in the fields of lead generation and affiliate marketing.</p>
           </div>
           <div className='card shadow-2xl p-5 mx-10 bg-white relative'
             data-aos='zoom-in'
@@ -49,7 +49,7 @@ const Career = () => {
             </div>
 
             <h1 className='text-center text-2xl font-bold mt-3 text-[#12232E]'>OUR VISION</h1>
-            <p className='px-5 mt-2 text-[#12232E]'>Our company's mission is to build a reputation as one of the most important hubs for pay-per-call networks in the world, and we want to accomplish this by utilizing our portfolio of strategies to differentiate our offerings in the fields of lead generation and affiliate marketing.</p>
+            <p className='px-5 mt-2 text-[#12232E]'>In terms of the vision of Ray Advertising, our company dreams to rank in the top tier of the Pay-Per-Call sector while also maximizing our profits and cash flow, both of which will ensure long-term growth initiatives for our affiliate publishers and advertisers.</p>
           </div>
         </div>
       </div>
